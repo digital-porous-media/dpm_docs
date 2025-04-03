@@ -9,8 +9,6 @@ theme:
   name: tacc_readthedocs
   # "ReadTheDocs" Theme Features
   logo: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@5717c8d/digitalrocks_assets/NSF-DigitalRocks-Logo.svg
-  analytics:
-    gtag: G-TRRRQZ0EHX
   # "TACC" Theme Features
   portal_url: https://digitalrocksportal.org
   portal_name: digitalrocksportal.org
