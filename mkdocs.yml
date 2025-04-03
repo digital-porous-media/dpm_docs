@@ -37,9 +37,7 @@ markdown_extensions:
 nav:
   - Digital Rocks Essentials:
     - Documentation Overview: index.md
-    - How to Use:
-      - Create Project: create-project.md
-      - User Agreement: user-agreement.md
+    - How to Use: https://www.digitalrocksportal.org/usage/
   - Another Category:
     - Some Page: some-page.md
 
