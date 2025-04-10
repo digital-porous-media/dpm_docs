@@ -2,7 +2,7 @@ site_name: Digital Rocks Documentation
 site_description: Digital Rocks Technical Documentation
 site_author: Digital Rocks Team
 site_url: https://digitalrocksportal.org
-repo_url: https://github.com/wesleyboar/digital-rocks-docs
+repo_url: https://github.com/digital-porous-media/dpm_docs
 edit_uri: edit/main/docs/
 
 theme:
@@ -32,12 +32,29 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.saneheaders
 
+# add contents from agu presentations
 nav:
   - Digital Rocks Essentials:
     - Documentation Overview: index.md
-    - How to Use: https://www.digitalrocksportal.org/usage/
-  - Another Category:
-    - Some Page: some-page.md
+    - Cite Us: https://www.digitalrocksportal.org/usage/
+    - Cite a Dataset: cite_dataset.md
+    #- User Agreement: user_agreement.md
+  - Data:
+    - Upload Data: upload_data.md
+    - Manage Data: manage_data.md
+    - Curate Datasets: curate.md
+    - Publish Datasets: publish.md
+  - Learn:
+    - Upcoming Tutorials: new_tutorials.md
+    - Past Tutorials: past_tutorials.md
+  - Applications:
+    - Some Page: some_page.md
+    - Jupyter Notebooks: jupyter_docs.md
+    - Digital Porous Media Tools (DPM Tools): dpm_tools.md #consider pointing it to its own documentation page after giving a brief info
+  - Policies:
+    - User Agreement: user_agreement.md
+  - Engage:
+    -LinkedIn: linkedin.md
 
 plugins:
   - search
