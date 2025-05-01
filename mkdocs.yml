@@ -36,25 +36,26 @@ markdown_extensions:
 nav:
   - Digital Rocks Essentials:
     - Documentation Overview: index.md
-    - Cite Us: https://www.digitalrocksportal.org/usage/
+    - About Us: about_us.md
+    - Cite Us: cite_us.md
     - Cite a Dataset: cite_dataset.md
     #- User Agreement: user_agreement.md
+  - Applications:
+    - Some Page: some_page.md
+    - Jupyter Notebooks: jupyter_docs.md
+    - Digital Porous Media Tools (DPM Tools): dpm_tools.md #consider pointing it to its own documentation page after giving a brief info
   - Data:
     - Upload Data: upload_data.md
     - Manage Data: manage_data.md
     - Curate Datasets: curate.md
     - Publish Datasets: publish.md
+  - Engage:
+    - LinkedIn: linkedin.md
   - Learn:
     - Upcoming Tutorials: new_tutorials.md
     - Past Tutorials: past_tutorials.md
-  - Applications:
-    - Some Page: some_page.md
-    - Jupyter Notebooks: jupyter_docs.md
-    - Digital Porous Media Tools (DPM Tools): dpm_tools.md #consider pointing it to its own documentation page after giving a brief info
   - Policies:
     - User Agreement: user_agreement.md
-  - Engage:
-    -LinkedIn: linkedin.md
 
 plugins:
   - search
