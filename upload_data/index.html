@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Digital Porous Media Portal Team" /><link rel="canonical" href="https://digitalporousmedia.org/some-page/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Digital Porous Media Portal Team" /><link rel="canonical" href="https://digitalporousmedia.org/upload_data/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Some Page - Digital Porous Media Portal Documentation</title>
+    <title>Upload Data - Digital Porous Media Portal Documentation</title>
     
     <link rel="stylesheet" href="../css/tacc-theme.css" />
     
@@ -20,9 +20,9 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Some Page";
-        var mkdocs_page_input_path = "some-page.md";
-        var mkdocs_page_url = "/some-page/";
+        var mkdocs_page_name = "Upload Data";
+        var mkdocs_page_input_path = "upload_data.md";
+        var mkdocs_page_url = "/upload_data/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -197,17 +197,17 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Data</span></p>
-              <ul>
-                  <li class="toctree-l1">
+              <ul class="current">
+                  <li class="toctree-l1 current">
 
-<a class="reference internal"
+<a class="reference internal current"
     
         
-            href="../upload_data/"
+            href="./"
         
     
 >Upload Data</a>
-    <ul>
+    <ul class="current">
     </ul>
                   </li>
                   <li class="toctree-l1">
@@ -304,9 +304,10 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
-      <li>Some Page</li>
+          <li>Data &raquo;</li>
+      <li>Upload Data</li>
     <li class="wy-breadcrumbs-aside">
-          <a href="https://github.com/digital-porous-media/dpm_docs/edit/main/docs/some-page.md" class="icon icon-github"> Suggest an update via GitHub</a>
+          <a href="https://github.com/digital-porous-media/dpm_docs/edit/main/docs/upload_data.md" class="icon icon-github"> Suggest an update via GitHub</a>
     </li>
   </ul>
   <hr/>
@@ -316,47 +317,89 @@
               
     
     <div id="tacc_readthedocs">
-      <h1 id="some-page">Some Page<a class="headerlink fa fa-link" href="#some-page" title="Link to Heading"></a></h1>
-<p>This is a sample page in the Digital Porous Media Portal documentation. You can use this as a template for creating additional documentation pages.</p>
-<h2 id="section-1">Section 1<a class="headerlink fa fa-link" href="#section-1" title="Link to Heading"></a></h2>
-<p>Add your content here. This section can include:</p>
+      <h1 id="how-to-upload-data-a-step-by-step-guide">How to Upload Data: A Step-by-Step Guide<a class="headerlink fa fa-link" href="#how-to-upload-data-a-step-by-step-guide" title="Link to Heading"></a></h1>
+<p>This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DPM). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.</p>
+<p><strong>Before You Begin:</strong></p>
 <ul>
-<li>Bullet points</li>
-<li>Code examples</li>
-<li>Images</li>
-<li>Tables</li>
+<li><strong>Account:</strong> Ensure you have registered for a TACC account at <a href="https://accounts.tacc.utexas.edu/register">https://accounts.tacc.utexas.edu/register</a> and are logged into the DPM.</li>
+<li><strong>Data Organization:</strong> Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) <em>before</em> uploading.</li>
+<li><strong>File Size:</strong><ul>
+<li>If your total dataset <strong>exceeds 2GB</strong>, please <strong>email the DPM staff first</strong> to discuss the upload.</li>
+<li>Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.</li>
 </ul>
-<h2 id="section-2">Section 2<a class="headerlink fa fa-link" href="#section-2" title="Link to Heading"></a></h2>
-<p>More content goes here. You can use various Markdown features:</p>
-<h3 id="code-example">Code Example<a class="headerlink fa fa-link" href="#code-example" title="Link to Heading"></a></h3>
-<pre class="highlight"><code class="language-python">def example_function():
-    print("This is a code example")</code></pre>
-<h3 id="table-example">Table Example<a class="headerlink fa fa-link" href="#table-example" title="Link to Heading"></a></h3>
-<table>
-<thead>
-<tr>
-<th>Column 1</th>
-<th>Column 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Data 1</td>
-<td>Data 2</td>
-</tr>
-<tr>
-<td>Data 3</td>
-<td>Data 4</td>
-</tr>
-</tbody>
-</table>
-<h2 id="next-steps">Next Steps<a class="headerlink fa fa-link" href="#next-steps" title="Link to Heading"></a></h2>
+</li>
+<li><strong>Compression:</strong> <strong>Avoid compressing</strong> individual image files (e.g., into <code>.zip</code> or <code>.tar.gz</code> archives) before uploading if possible. Uploading raw or standard image formats directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.</li>
+</ul>
+<hr />
+<p><strong>Step 1: Create or Select a Project</strong></p>
+<p>All data on DPM belongs to a "Project".</p>
+<ol>
+<li>Log in to the DPM and navigate to the <strong>"My Projects"</strong> interface.</li>
+<li>Choose one:<ul>
+<li><strong>Create a New Project:</strong> Click the option to create a new project. Provide a descriptive name.<ul>
+<li><em>Note on Ownership:</em> For citation purposes, it's best if the primary data author is the project owner. If someone else (e.g., a student or assistant) will be uploading the data, the data owner should ideally create the project and then add the uploader as a collaborator (see Step 2).</li>
+</ul>
+</li>
+<li><strong>Use an Existing Project:</strong> If you are adding data to a project you previously created, simply navigate to and open that project.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Step 2: Add Collaborators (Optional)</strong></p>
+<p>If members of your team need to help manage the project or view the data while it's still private:</p>
+<ol>
+<li>Ensure your collaborators are registered users on the DPM.</li>
+<li>Within your project's management interface, find the option to add collaborators.</li>
+<li>Add them using their registered DPM/TACC username or email. Collaborators can then edit the project and upload data.</li>
+</ol>
+<p><strong>Step 3: Upload Your Data Files</strong></p>
+<ol>
+<li>Inside your selected project, find the data upload section or button.</li>
+<li>Choose your preferred upload method:<ul>
+<li><strong>Dropbox:</strong> Link your Dropbox account to transfer files directly.</li>
+<li><strong>UTBox:</strong> Link your UTBox account (if applicable) to transfer files directly.</li>
+<li><strong>Drag-and-Drop:</strong> Drag files or folders directly from your computer onto the designated upload area in your web browser.</li>
+</ul>
+</li>
+<li>Select the prepared files/folders and start the upload process. Monitor the progress as indicated by the interface.</li>
+</ol>
+<p><strong>Step 4: Add Metadata (Crucial!)</strong></p>
+<p>Metadata (data about your data) is essential for making your dataset understandable and usable. You will be prompted to add metadata for your project and individual files.</p>
+<ol>
+<li><strong>Project Description:</strong> Provide a clear description of the overall project, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.</li>
+<li><strong>File-Level Metadata:</strong> For each uploaded data file (especially images), provide necessary details.</li>
+<li><strong>Minimum Requirements:</strong> The DPM enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.</li>
+<li><strong>Critical Metadata for Raw Binary Images:</strong> Raw binary files (<code>.raw</code>, <code>.bin</code>, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you <strong>must</strong> provide:<ul>
+<li><strong>Voxel Dimensions:</strong> The number of voxels (pixels in 3D) in each direction (e.g., width, height, depth/slices).</li>
+<li><strong>Voxel Size:</strong> The physical size of one voxel (e.g., in µm). If not applicable (e.g., for synthetic data), enter '1' and make a note in the description.</li>
+<li><strong>Data Type:</strong> The numerical format (e.g., 8-bit unsigned integer, 16-bit signed integer, 32-bit float).</li>
+<li><strong>Byte Order (Endianness):</strong> Specify 'Big Endian' or 'Little Endian'. This is critical for multi-byte data types (16-bit, 32-bit, etc.). If unsure, you might need to try both – upload the metadata, check the preview (Step 5), and edit if it looks scrambled. (Note: For 8-bit data, byte order doesn't typically matter).</li>
+<li><em>Tip:</em> If unsure about these parameters, try opening your raw file in software like ImageJ/Fiji locally first to determine the correct settings.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Step 5: Verify Previews (Especially for Volumetric Images)</strong></p>
+<ol>
+<li>After the upload and metadata entry, the portal will often attempt to generate a preview (e.g., a GIF movie slicing through a 3D volume).</li>
+<li>Check the preview on the project page. Does it look as expected?</li>
+<li><strong>Troubleshooting Low-Range Binary Data:</strong> If you uploaded segmented data (e.g., values 0, 1, 2) as a raw binary file, the preview might initially look black or very dark. This is because the visualizer scales to the full potential range (e.g., 0-255 for 8-bit). To fix this:<ul>
+<li>Navigate to the specific image file within your project.</li>
+<li>Click the <strong>"Actions"</strong> tab/button associated with that file.</li>
+<li>Select <strong>"Edit"</strong>.</li>
+<li>Find and check the option labeled <strong>"Use binary correction"</strong> (or similar wording).</li>
+<li><strong>Save Changes</strong>.</li>
+<li>The task to re-render the preview will be queued, and it should update shortly to display the limited range correctly.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Step 6: Review and Finalize</strong></p>
+<p>Your uploaded data is now stored <strong>privately</strong> within your project.</p>
 <ul>
-<li>Add more sections as needed</li>
-<li>Include relevant images and diagrams</li>
-<li>Link to other documentation pages</li>
-<li>Add examples and use cases </li>
+<li>Review all uploaded files and metadata for accuracy and completeness.</li>
+<li>You can continue to add/edit data and metadata while the project remains private.</li>
+<li>Once you are satisfied and ready to make the data public, you can proceed with the publication request process (covered in the "Publish Datasets" guide - <code>publish.md</code>). Metadata cannot be easily edited by you after publication.</li>
 </ul>
+<hr />
+<p>For further details on specific file formats or metadata fields, please refer to the relevant sections of the documentation. If you encounter issues, contact the DPM support team.</p>
     </div>
     
   
@@ -397,6 +440,10 @@
         </span>
     
     
+      <span><a href="../cite_dataset/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../manage_data/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
