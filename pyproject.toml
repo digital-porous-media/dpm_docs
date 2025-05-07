@@ -3,9 +3,9 @@ requires = ["poetry-core>=1.5.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "digital-rocks-docs"
+name = "dpm_docs"
 version = "0.1.0"
-description = "Digital Porous Media Documentation"
+description = "Documentation for Digital Porous Media Portal"
 authors = [
   { name = "TACC COA CMD", email = "coa-cmd@tacc.utexas.edu" }
 ]

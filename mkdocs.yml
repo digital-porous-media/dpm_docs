@@ -1,6 +1,6 @@
-site_name: Digital Porous Media Documentation
-site_description: Digital Porous Media Technical Documentation
-site_author: Digital Porous Media Team
+site_name: Digital Porous Media Portal Documentation
+site_description: Documentation for Digital Porous Media Portal
+site_author: Digital Porous Media Portal Team
 site_url: https://digitalporousmedia.org
 repo_url: https://github.com/digital-porous-media/dpm_docs
 edit_uri: edit/main/docs/
