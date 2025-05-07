@@ -1,6 +1,6 @@
-site_name: Digital Rocks Documentation
-site_description: Digital Rocks Technical Documentation
-site_author: Digital Rocks Team
+site_name: Digital Porous Media Documentation
+site_description: Digital Porous Media Technical Documentation
+site_author: Digital Porous Media Team
 site_url: https://digitalrocksportal.org
 repo_url: https://github.com/digital-porous-media/dpm_docs
 edit_uri: edit/main/docs/
@@ -34,7 +34,7 @@ markdown_extensions:
 
 # add contents from agu presentations
 nav:
-  - Digital Rocks Essentials:
+  - Digital Porous Media Essentials:
     - Documentation Overview: index.md
     - About Us: about_us.md
     - Cite Us: cite_us.md

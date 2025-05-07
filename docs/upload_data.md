@@ -1,6 +1,6 @@
 # How to Upload Data: A Step-by-Step Guide
 
-This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Rocks Portal (DRP). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.
+This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DRP). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.
 
 **Before You Begin:**
 

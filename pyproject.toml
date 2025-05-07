@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 [project]
 name = "digital-rocks-docs"
 version = "0.1.0"
-description = "Digital Rocks Documentation"
+description = "Digital Porous Media Documentation"
 authors = [
   { name = "TACC COA CMD", email = "coa-cmd@tacc.utexas.edu" }
 ]
