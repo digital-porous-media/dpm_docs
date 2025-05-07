@@ -48,7 +48,7 @@ DPM is proud to be an active participant in the broader research data ecosystem:
 
 Keep up with DPM developments and recognition:
 
-* [Digital Porous Media Physics Helps Scientists Understand Porous Media (TACC, Feb 2017)](https://www.pge.utexas.edu/news/350-tacc-digital-rocks-portal) 
+* [Digital Rocks Portal Physics Helps Scientists Understand Porous Media (TACC, Feb 2017)](https://www.pge.utexas.edu/news/350-tacc-digital-rocks-portal) 
 * Featured in the Journal of Petroleum Technology (Apr 2016)
 * Spotlighted by InterPore (May 2016)
 * [Subscribe to our Newsletter](link-to-newsletter-signup) *(Placeholder for actual link)* for the latest news, dataset highlights, and event announcements.
