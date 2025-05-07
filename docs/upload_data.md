@@ -1,13 +1,13 @@
 # How to Upload Data: A Step-by-Step Guide
 
-This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DRP). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.
+This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DPM). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.
 
 **Before You Begin:**
 
-* **Account:** Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.edu/register](https://accounts.tacc.utexas.edu/register) and are logged into the DRP.
+* **Account:** Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.edu/register](https://accounts.tacc.utexas.edu/register) and are logged into the DPM.
 * **Data Organization:** Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading.
 * **File Size:**
-    * If your total dataset **exceeds 2GB**, please **email the DRP staff first** to discuss the upload.
+    * If your total dataset **exceeds 2GB**, please **email the DPM staff first** to discuss the upload.
     * Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.
 * **Compression:** **Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading raw or standard image formats directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.
 
@@ -15,9 +15,9 @@ This guide provides step-by-step instructions for uploading your porous media da
 
 **Step 1: Create or Select a Project**
 
-All data on DRP belongs to a "Project".
+All data on DPM belongs to a "Project".
 
-1.  Log in to the DRP and navigate to the **"My Projects"** interface.
+1.  Log in to the DPM and navigate to the **"My Projects"** interface.
 2.  Choose one:
     * **Create a New Project:** Click the option to create a new project. Provide a descriptive name.
         * *Note on Ownership:* For citation purposes, it's best if the primary data author is the project owner. If someone else (e.g., a student or assistant) will be uploading the data, the data owner should ideally create the project and then add the uploader as a collaborator (see Step 2).
@@ -27,9 +27,9 @@ All data on DRP belongs to a "Project".
 
 If members of your team need to help manage the project or view the data while it's still private:
 
-1.  Ensure your collaborators are registered users on the DRP.
+1.  Ensure your collaborators are registered users on the DPM.
 2.  Within your project's management interface, find the option to add collaborators.
-3.  Add them using their registered DRP/TACC username or email. Collaborators can then edit the project and upload data.
+3.  Add them using their registered DPM/TACC username or email. Collaborators can then edit the project and upload data.
 
 **Step 3: Upload Your Data Files**
 
@@ -46,8 +46,8 @@ Metadata (data about your data) is essential for making your dataset understanda
 
 1.  **Project Description:** Provide a clear description of the overall project, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.
 2.  **File-Level Metadata:** For each uploaded data file (especially images), provide necessary details.
-3.  **Minimum Requirements:** The DRP enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.
-4.  **Critical Metadata for Raw Binary Images:** Raw binary files (`.raw`, `.bin`, etc.) do not contain size or format information internally. To allow DRP to display them correctly, you **must** provide:
+3.  **Minimum Requirements:** The DPM enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.
+4.  **Critical Metadata for Raw Binary Images:** Raw binary files (`.raw`, `.bin`, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you **must** provide:
     * **Voxel Dimensions:** The number of voxels (pixels in 3D) in each direction (e.g., width, height, depth/slices).
     * **Voxel Size:** The physical size of one voxel (e.g., in µm). If not applicable (e.g., for synthetic data), enter '1' and make a note in the description.
     * **Data Type:** The numerical format (e.g., 8-bit unsigned integer, 16-bit signed integer, 32-bit float).
@@ -76,4 +76,4 @@ Your uploaded data is now stored **privately** within your project.
 
 ---
 
-For further details on specific file formats or metadata fields, please refer to the relevant sections of the documentation. If you encounter issues, contact the DRP support team.
+For further details on specific file formats or metadata fields, please refer to the relevant sections of the documentation. If you encounter issues, contact the DPM support team.

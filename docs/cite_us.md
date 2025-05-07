@@ -1,6 +1,6 @@
 # How to Cite the Digital Porous Media Portal
 
-If you use the Digital Porous Media Portal (DRP) platform or data hosted on it in your research, publications, presentations, or other work, we request that you include the following citations to acknowledge the portal resource:
+If you use the Digital Porous Media Portal (DPM) platform or data hosted on it in your research, publications, presentations, or other work, we request that you include the following citations to acknowledge the portal resource:
 
 > Masa Prodanovic, Maria Esteva, Matthew Hanlon, Gaurav Nanda, Prateek Agarwal (2015) Digital Porous Media Portal: a repository for porous media images http://dx.doi.org/10.17612/P7CC7K
 

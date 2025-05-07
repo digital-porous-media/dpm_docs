@@ -1,10 +1,10 @@
 # How to Cite a Dataset from the Portal
 
-Properly citing datasets you retrieve and use from the Digital Porous Media Portal (DRP) is essential for giving appropriate credit to the data creators and ensuring the transparency and reproducibility of research.
+Properly citing datasets you retrieve and use from the Digital Porous Media Portal (DPM) is essential for giving appropriate credit to the data creators and ensuring the transparency and reproducibility of research.
 
 ## Using the Dataset DOI
 
-Published datasets within the DRP are assigned a persistent **Digital Object Identifier (DOI)**. This DOI ensures the dataset can be reliably located and referenced over time, even if its web address changes.
+Published datasets within the DPM are assigned a persistent **Digital Object Identifier (DOI)**. This DOI ensures the dataset can be reliably located and referenced over time, even if its web address changes.
 
 * **Find the DOI:** You should find the specific DOI prominently displayed on the landing page or metadata record for the dataset you are using within the portal.
 * **Include in Citation:** When citing the dataset, please include standard bibliographic information along with the DOI. Key elements are typically:
