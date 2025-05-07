@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 theme:
   name: tacc_readthedocs
   # "ReadTheDocs" Theme Features
-  logo: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@5717c8d/digitalrocks_assets/NSF-DigitalRocks-Logo.svg
+  logo: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@621b441/digitalrocks_assets/logo.svg
   # "TACC" Theme Features
   portal_url: https://digitalporousmedia.org
   portal_name: digitalporousmedia.org
