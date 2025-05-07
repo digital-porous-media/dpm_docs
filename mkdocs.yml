@@ -1,7 +1,7 @@
 site_name: Digital Porous Media Documentation
 site_description: Digital Porous Media Technical Documentation
 site_author: Digital Porous Media Team
-site_url: https://digitalrocksportal.org
+site_url: https://digitalporousmedia.org
 repo_url: https://github.com/digital-porous-media/dpm_docs
 edit_uri: edit/main/docs/
 
@@ -10,8 +10,8 @@ theme:
   # "ReadTheDocs" Theme Features
   logo: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@5717c8d/digitalrocks_assets/NSF-DigitalRocks-Logo.svg
   # "TACC" Theme Features
-  portal_url: https://digitalrocksportal.org
-  portal_name: digitalrocksportal.org
+  portal_url: https://digitalporousmedia.org
+  portal_name: digitalporousmedia.org
 
 extra_css:
   - css/extra.css
