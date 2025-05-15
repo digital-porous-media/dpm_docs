@@ -14,7 +14,6 @@ This guide provides step-by-step instructions for uploading your porous media da
 ---
 
 **Step 1: Create or Select a Project**
-
 All data on DPM belongs to a "Project".
 
 1.  Log in to the DPM and navigate to the **"My Projects"** interface.
@@ -48,6 +47,7 @@ Metadata (data about your data) is essential for making your dataset understanda
 2.  **File-Level Metadata:** For each uploaded data file (especially images), provide necessary details.
 3.  **Minimum Requirements:** The DPM enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.
 4.  **Critical Metadata for Raw Binary Images:** Raw binary files (`.raw`, `.bin`, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you **must** provide:
+
     * **Voxel Dimensions:** The number of voxels (pixels in 3D) in each direction (e.g., width, height, depth/slices).
     * **Voxel Size:** The physical size of one voxel (e.g., in µm). If not applicable (e.g., for synthetic data), enter '1' and make a note in the description.
     * **Data Type:** The numerical format (e.g., 8-bit unsigned integer, 16-bit signed integer, 32-bit float).

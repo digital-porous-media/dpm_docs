@@ -4,6 +4,7 @@
 
 Launched in 2015, the Digital Porous Media Portal (DPM) serves as a vital open repository for the geosciences and engineering communities focused on porous materials. Our mission is multi-faceted:
 
+
 * **Organize and Preserve:** We provide a robust platform to securely store, organize, and preserve valuable imaged datasets and related experimental measurements of porous materials, primarily focusing on subsurface media like rocks and soil.
 * **Connect and Analyze:** We strive to link these datasets with simulation, analysis, and visualization tools, thereby enhancing their scientific utility and enabling deeper insights.
 * **Educate and Collaborate:** We are committed to supporting the research community by offering educational resources, organizing workshops and challenges, and fostering collaboration through data sharing.
@@ -24,6 +25,7 @@ The Digital Porous Media Portal is specifically designed to host datasets pertin
 
 The Digital Porous Media Portal initiative is led by **Dr. Maša Prodanović**, faculty in the Hildebrand Department of Petroleum and Geosystems Engineering at The University of Texas at Austin.
 
+
 The portal leverages the significant capabilities of the **Texas Advanced Computing Center (TACC)** for high-performance storage, computing resources, and technical expertise, supported by the **University of Texas System Research Cyberinfrastructure (UTRC)** initiative. Administrative support is provided by the Center for Subsurface Energy and the Environment at UT Austin.
 
 Our dedicated team (based on recent records) includes experts in data curation, software development, and outreach:
@@ -39,12 +41,14 @@ We gratefully acknowledge the foundational work and significant contributions of
 
 DPM is proud to be an active participant in the broader research data ecosystem:
 
+
 * An affiliated project within **EarthCube**, enhancing access to geoscience data.
 * A member of the **EarthCube Council of Data Facilities**.
 * Registered in the **Registry of Research Data Repositories (re3data.org)**.
 * Recognized as a recommended data repository by the **Geosciences Data Journal**.
 
 ## News Highlights
+
 
 Keep up with DPM developments and recognition:
 
