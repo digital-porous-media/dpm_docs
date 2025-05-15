@@ -1,6 +1,6 @@
 # Some Page
 
-This is a sample page in the Digital Rocks documentation. You can use this as a template for creating additional documentation pages.
+This is a sample page in the Digital Porous Media Portal documentation. You can use this as a template for creating additional documentation pages.
 
 ## Section 1
 
