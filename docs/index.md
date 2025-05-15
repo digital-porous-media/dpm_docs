@@ -37,5 +37,3 @@ This documentation is organized into several sections:
 If you need assistance or have questions:
 
 - Check our [FAQ section](https://digitalporousmedia.org/faq)
-- Contact our support team at [support@digitalporousmedia.org](mailto:support@digitalporousmedia.org)
-- Join our community forum 
