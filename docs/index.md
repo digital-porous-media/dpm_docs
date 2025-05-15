@@ -1,6 +1,8 @@
 # Digital Rocks Documentation
 
-** This documentation is a prototype and is currently being developed! **
+!!! caution "Caution"
+    This documentation is a prototype and is currently being developed.
+
 Welcome to the Digital Rocks documentation. This documentation provides comprehensive information about the Digital Rocks Portal, its features, and how to use them effectively.
 
 ## Overview
