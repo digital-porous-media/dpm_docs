@@ -1,6 +1,9 @@
 # Digital Porous Media Documentation
 
-Welcome to the Digital Porous Media documentation. This documentation provides comprehensive information about the Digital Porous Media Portal, its features, and how to use them effectively.
+!!! caution "Caution"
+    This documentation is a prototype and is currently being developed.
+
+Welcome to the Digital Rocks documentation. This documentation provides comprehensive information about the Digital Rocks Portal, its features, and how to use them effectively.
 
 ## Overview
 
