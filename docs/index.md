@@ -1,4 +1,4 @@
-# Digital Rocks Documentation
+# Digital Porous Media Documentation
 
 !!! caution "Caution"
     This documentation is a prototype and is currently being developed.
@@ -7,7 +7,7 @@ Welcome to the Digital Rocks documentation. This documentation provides comprehe
 
 ## Overview
 
-The Digital Rocks Portal is a platform for sharing, visualizing, and analyzing digital rock data. This documentation will help you understand:
+The Digital Porous Media Portal is a platform for sharing, visualizing, and analyzing digital rock data. This documentation will help you understand:
 
 - How to use the portal effectively
 - Available features and capabilities
@@ -16,9 +16,9 @@ The Digital Rocks Portal is a platform for sharing, visualizing, and analyzing d
 
 ## Getting Started
 
-To get started with Digital Rocks:
+To get started with Digital Porous Media:
 
-1. Visit [digitalrocksportal.org](https://digitalrocksportal.org)
+1. Visit [digitalporousmedia.org](https://digitalporousmedia.org)
 2. Create an account or sign in
 3. Explore the available datasets and tools
 4. Start sharing your own digital rock data
@@ -27,7 +27,7 @@ To get started with Digital Rocks:
 
 This documentation is organized into several sections:
 
-- **Digital Rocks Essentials**: Core documentation and usage guides
+- **Digital Porous Media Essentials**: Core documentation and usage guides
 - **Advanced Topics**: Detailed information about specific features and capabilities
 - **API Reference**: Technical documentation for developers
 - **Tutorials**: Step-by-step guides for common tasks
@@ -36,6 +36,6 @@ This documentation is organized into several sections:
 
 If you need assistance or have questions:
 
-- Check our [FAQ section](https://digitalrocksportal.org/faq)
+- Check our [FAQ section](https://digitalporousmedia.org/faq)
 - Contact our support team at [support@digitalrocksportal.org](mailto:support@digitalrocksportal.org)
-- Join our community forum 
+- Join our community forum

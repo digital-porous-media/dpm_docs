@@ -1,6 +1,6 @@
-# Digital Rocks Docs
+# Digital Porous Media Portal
 
-Digital Rocks documentation for [digitalrocksportal.org](https://digitalrocksportal.org).
+Documentation for [digitalporousmedia.org](https://digitalporousmedia.org/).
 
 ## Contributing
 
