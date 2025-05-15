@@ -331,8 +331,8 @@
 <li><strong>Compression:</strong> <strong>Avoid compressing</strong> individual image files (e.g., into <code>.zip</code> or <code>.tar.gz</code> archives) before uploading if possible. Uploading raw or standard image formats directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.</li>
 </ul>
 <hr />
-<p><strong>Step 1: Create or Select a Project</strong></p>
-<p>All data on DPM belongs to a "Project".</p>
+<p><strong>Step 1: Create or Select a Project</strong>
+All data on DPM belongs to a "Project".</p>
 <ol>
 <li>Log in to the DPM and navigate to the <strong>"My Projects"</strong> interface.</li>
 <li>Choose one:<ul>
@@ -368,7 +368,9 @@
 <li><strong>Project Description:</strong> Provide a clear description of the overall project, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.</li>
 <li><strong>File-Level Metadata:</strong> For each uploaded data file (especially images), provide necessary details.</li>
 <li><strong>Minimum Requirements:</strong> The DPM enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.</li>
-<li><strong>Critical Metadata for Raw Binary Images:</strong> Raw binary files (<code>.raw</code>, <code>.bin</code>, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you <strong>must</strong> provide:<ul>
+<li>
+<p><strong>Critical Metadata for Raw Binary Images:</strong> Raw binary files (<code>.raw</code>, <code>.bin</code>, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you <strong>must</strong> provide:</p>
+<ul>
 <li><strong>Voxel Dimensions:</strong> The number of voxels (pixels in 3D) in each direction (e.g., width, height, depth/slices).</li>
 <li><strong>Voxel Size:</strong> The physical size of one voxel (e.g., in µm). If not applicable (e.g., for synthetic data), enter '1' and make a note in the description.</li>
 <li><strong>Data Type:</strong> The numerical format (e.g., 8-bit unsigned integer, 16-bit signed integer, 32-bit float).</li>
