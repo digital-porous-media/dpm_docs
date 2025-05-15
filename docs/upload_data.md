@@ -14,16 +14,9 @@ This guide provides step-by-step instructions for uploading your porous media da
 ---
 
 **Step 1: Create or Select a Project**
-<<<<<<< HEAD
-
-All data on DRP belongs to a "Project".
-
-1.  Log in to the DRP and navigate to the **"My Projects"** interface.
-=======
 All data on DPM belongs to a "Project".
 
 1.  Log in to the DPM and navigate to the **"My Projects"** interface.
->>>>>>> origin
 2.  Choose one:
     * **Create a New Project:** Click the option to create a new project. Provide a descriptive name.
         * *Note on Ownership:* For citation purposes, it's best if the primary data author is the project owner. If someone else (e.g., a student or assistant) will be uploading the data, the data owner should ideally create the project and then add the uploader as a collaborator (see Step 2).
@@ -33,15 +26,9 @@ All data on DPM belongs to a "Project".
 
 If members of your team need to help manage the project or view the data while it's still private:
 
-<<<<<<< HEAD
-1.  Ensure your collaborators are registered users on the DRP.
-2.  Within your project's management interface, find the option to add collaborators.
-3.  Add them using their registered DRP/TACC username or email. Collaborators can then edit the project and upload data.
-=======
 1.  Ensure your collaborators are registered users on the DPM.
 2.  Within your project's management interface, find the option to add collaborators.
 3.  Add them using their registered DPM/TACC username or email. Collaborators can then edit the project and upload data.
->>>>>>> origin
 
 **Step 3: Upload Your Data Files**
 
@@ -58,14 +45,9 @@ Metadata (data about your data) is essential for making your dataset understanda
 
 1.  **Project Description:** Provide a clear description of the overall project, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.
 2.  **File-Level Metadata:** For each uploaded data file (especially images), provide necessary details.
-<<<<<<< HEAD
-3.  **Minimum Requirements:** The DRP enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.
-4.  **Critical Metadata for Raw Binary Images:** Raw binary files (`.raw`, `.bin`, etc.) do not contain size or format information internally. To allow DRP to display them correctly, you **must** provide:
-=======
 3.  **Minimum Requirements:** The DPM enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.
 4.  **Critical Metadata for Raw Binary Images:** Raw binary files (`.raw`, `.bin`, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you **must** provide:
 
->>>>>>> origin
     * **Voxel Dimensions:** The number of voxels (pixels in 3D) in each direction (e.g., width, height, depth/slices).
     * **Voxel Size:** The physical size of one voxel (e.g., in µm). If not applicable (e.g., for synthetic data), enter '1' and make a note in the description.
     * **Data Type:** The numerical format (e.g., 8-bit unsigned integer, 16-bit signed integer, 32-bit float).
@@ -94,8 +76,4 @@ Your uploaded data is now stored **privately** within your project.
 
 ---
 
-<<<<<<< HEAD
-For further details on specific file formats or metadata fields, please refer to the relevant sections of the documentation. If you encounter issues, contact the DRP support team.
-=======
 For further details on specific file formats or metadata fields, please refer to the relevant sections of the documentation. If you encounter issues, contact the DPM support team.
->>>>>>> origin
