@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Digital Porous Media Portal Team" /><link rel="canonical" href="https://digitalporousmedia.org/some-page/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Digital Porous Media Portal Team" /><link rel="canonical" href="https://digitalporousmedia.org/community_data/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Some Page - Digital Porous Media Portal Documentation</title>
+    <title>Community Data - Digital Porous Media Portal Documentation</title>
     
     <link rel="stylesheet" href="../css/tacc-theme.css" />
     
@@ -20,9 +20,9 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Some Page";
-        var mkdocs_page_input_path = "some-page.md";
-        var mkdocs_page_url = "/some-page/";
+        var mkdocs_page_name = "Community Data";
+        var mkdocs_page_input_path = "community_data.md";
+        var mkdocs_page_url = "/community_data/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -164,16 +164,20 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Applications</span></p>
-              <ul>
-                  <li class="toctree-l1">
+              <ul class="current">
+                  <li class="toctree-l1 current">
 
-<a class=""
+<a class="reference internal current"
     
         
-            href="../some_page.md"
+            href="./"
         
     
->Some Page</a>
+>Community Data</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#how-do-admins-move-the-community-data">How Do Admins Move the Community Data?</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1">
 
@@ -304,9 +308,10 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
-      <li>Some Page</li>
+          <li>Applications &raquo;</li>
+      <li>Community Data</li>
     <li class="wy-breadcrumbs-aside">
-          <a href="https://github.com/digital-porous-media/dpm_docs/edit/main/docs/some-page.md" class="icon icon-github"> Suggest an update via GitHub</a>
+          <a href="https://github.com/digital-porous-media/dpm_docs/edit/main/docs/community_data.md" class="icon icon-github"> Suggest an update via GitHub</a>
     </li>
   </ul>
   <hr/>
@@ -316,47 +321,44 @@
               
     
     <div id="tacc_readthedocs">
-      <h1 id="some-page">Some Page<a class="headerlink fa fa-link" href="#some-page" title="Link to Heading"></a></h1>
-<p>This is a sample page in the Digital Porous Media Portal documentation. You can use this as a template for creating additional documentation pages.</p>
-<h2 id="section-1">Section 1<a class="headerlink fa fa-link" href="#section-1" title="Link to Heading"></a></h2>
-<p>Add your content here. This section can include:</p>
-<ul>
-<li>Bullet points</li>
-<li>Code examples</li>
-<li>Images</li>
-<li>Tables</li>
-</ul>
-<h2 id="section-2">Section 2<a class="headerlink fa fa-link" href="#section-2" title="Link to Heading"></a></h2>
-<p>More content goes here. You can use various Markdown features:</p>
-<h3 id="code-example">Code Example<a class="headerlink fa fa-link" href="#code-example" title="Link to Heading"></a></h3>
-<pre class="highlight"><code class="language-python">def example_function():
-    print("This is a code example")</code></pre>
-<h3 id="table-example">Table Example<a class="headerlink fa fa-link" href="#table-example" title="Link to Heading"></a></h3>
-<table>
-<thead>
-<tr>
-<th>Column 1</th>
-<th>Column 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Data 1</td>
-<td>Data 2</td>
-</tr>
-<tr>
-<td>Data 3</td>
-<td>Data 4</td>
-</tr>
-</tbody>
-</table>
-<h2 id="next-steps">Next Steps<a class="headerlink fa fa-link" href="#next-steps" title="Link to Heading"></a></h2>
-<ul>
-<li>Add more sections as needed</li>
-<li>Include relevant images and diagrams</li>
-<li>Link to other documentation pages</li>
-<li>Add examples and use cases </li>
-</ul>
+      <h1 id="community-data">Community Data<a class="headerlink fa fa-link" href="#community-data" title="Link to Heading"></a></h1>
+<p>Community data are curated and placed in the designated directory by administrators or curators. Users can access these datasets while working with the <a href="jupyter_apps.md">applications</a>.</p>
+<p>Within each Jupyter Hub session, users may locally modify copies of the community data. However, these modifications are session-specific and do not affect the global datasets. Each time a user starts a new Jupyter Hub session, the original community data will be available in the corresponding directory. If users wish to retain any changes made to the community data, they should transfer the modified files to their personal or allocated storage.</p>
+<h2 id="how-do-admins-move-the-community-data">How Do Admins Move the Community Data?<a class="headerlink fa fa-link" href="#how-do-admins-move-the-community-data" title="Link to Heading"></a></h2>
+<p>The Community Applications project is a special type of project designed for centralized data sharing. Only authorized administrators can add data to the Community Applications project. You can skip this part if you are a regular user.</p>
+<p>To upload community data, admins should follow these steps:</p>
+<ol>
+<li>
+<p><strong>Navigate to the Correct Location:</strong><br />
+   Community data uploads must be performed through the path:<br />
+<code>Data Files &gt; Dataset &gt; Community Applications</code><br />
+<a href="https://digitalporousmedia.org/workbench/data/tapis/projects/drp.project.root">Direct link to the Portal</a></p>
+</li>
+<li>
+<p><strong>Initiate the Upload:</strong><br />
+   Click the purple <strong>"+Add"</strong> button and select the appropriate action:<br>
+   - Create a folder<br>
+   - Create a new dataset<br>
+   - Upload data from your local system to the current location</p>
+<div class="admonition caution">
+<p class="admonition-title">Warning</p>
+<p>Data cannot be uploaded directly to the "Community Applications" project exposed under <code>Data Files &gt; Community Applications</code>. Instead, admins must use the special project accessible only to admin users under <code>Data Files &gt; Datasets &gt; Community Applications</code>.</p>
+</div>
+</li>
+<li>
+<p><strong>Data Visibility:</strong><br />
+   Once an approved admin uploads data into the special "Community Applications" project the data will become visible (read-only) to all users under the path <code>Data Files &gt; Community Applications</code>.</p>
+</li>
+<li>
+<p><strong>JupyterHub Integration:</strong><br />
+   There is no conflict between having an active JupyterHub session and uploading data to Community Applications. Users in JupyterHub will see new data appear under the "Community" folder once it is properly uploaded by an admin. If the new data does not appear automatically, users can click the refresh icon (small circular arrow) in the Jupyter file browser to update the file listing.</p>
+</li>
+<li>
+<p><strong>Concurrent Uploads:</strong><br />
+   Multiple admins can upload data to the Community Applications project simultaneously without conflict.</p>
+</li>
+</ol>
+<p>If you encounter any issues or require additional permissions, please contact the DPM team.</p>
     </div>
     
   
@@ -397,6 +399,10 @@
         </span>
     
     
+      <span><a href="../cite_dataset/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../upload_data/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
