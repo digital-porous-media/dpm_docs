@@ -41,7 +41,7 @@ nav:
     - Cite a Dataset: cite_dataset.md
     #- User Agreement: user_agreement.md
   - Applications:
-    - Some Page: some_page.md
+    - Community Data: community_data.md
     - Jupyter Notebooks: jupyter_docs.md
     - Digital Porous Media Tools (DPM Tools): dpm_tools.md #consider pointing it to its own documentation page after giving a brief info
   - Data:
