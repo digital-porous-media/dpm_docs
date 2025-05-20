@@ -3,11 +3,11 @@
 !!! caution "Caution"
     This documentation is a prototype and is currently being developed.
 
-Welcome to the Digital Rocks documentation. This documentation provides comprehensive information about the Digital Rocks Portal, its features, and how to use them effectively.
+Welcome to the Digital Porous Media Portal  (DPMP) documentation. This documentation provides comprehensive information about the DPMP, its features, and how to use them effectively.
 
 ## Overview
 
-The Digital Porous Media Portal is a platform for sharing, visualizing, and analyzing digital rock data. This documentation will help you understand:
+The DPMP is a platform for sharing, visualizing, and analyzing digital rock data. This documentation will help you understand:
 
 - How to use the portal effectively
 - Available features and capabilities
@@ -21,7 +21,7 @@ To get started with Digital Porous Media:
 1. Visit [digitalporousmedia.org](https://digitalporousmedia.org)
 2. Create an account or sign in
 3. Explore the available datasets and tools
-4. Start sharing your own digital rock data
+4. Start sharing your own digital porous media data
 
 ## Documentation Structure
 
