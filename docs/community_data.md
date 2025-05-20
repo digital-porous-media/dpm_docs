@@ -17,10 +17,11 @@ To upload community data, admins should follow these steps:
    [Direct link to the Portal](https://digitalporousmedia.org/workbench/data/tapis/projects/drp.project.root)
 
 2. **Initiate the Upload:**  
-   Click the purple **"+Add"** button and select the appropriate action:<br>
-   \- Create a folder<br>
-   \- Create a new dataset<br>
-   \- Upload data from your local system to the current location
+    Click the purple **"+Add"** button and select the appropriate action:
+
+    - Create a folder
+    - Create a new dataset
+    - Upload data from your local system to the current location
 
     /// admonition | Warning
             type: caution 
