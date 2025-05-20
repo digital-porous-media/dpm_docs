@@ -28,14 +28,14 @@ The Digital Porous Media Portal initiative is led by **Dr. Maša Prodanović**, 
 
 The portal leverages the significant capabilities of the **Texas Advanced Computing Center (TACC)** for high-performance storage, computing resources, and technical expertise, supported by the **University of Texas System Research Cyberinfrastructure (UTRC)** initiative. Administrative support is provided by the Center for Subsurface Energy and the Environment at UT Austin.
 
-Our dedicated team (based on recent records) includes experts in data curation, software development, and outreach:
+Our dedicated team includes experts in data curation, software development, and outreach:
 
-* **Data Curation:** Dr. Maria Esteva
-* **Project Implementation:** Andrew Magill, Keith Strmiska
-* **Project Curation & Digital Marketing:** Javier Estrada Santos, Hasan Khan
-* **Digital Marketing:** Anuradha Radhakrishnan, Ankita Singh
+* Dr. Masa Prodanovic
+* Dr. Maria Esteva
+* Dr. Bernard Chang
+* Cinar Turhan
 
-We gratefully acknowledge the foundational work and significant contributions of past team members, including: Christopher Landry, Linli Ding, Mary Pettengil, Matthew Hanlon, Ashvini Venkatesh, Aditi Ranganath, Prateel Agarwal, and Gaurav Nanda.
+We gratefully acknowledge the foundational work and significant contributions of past team members, including: Christopher Landry, Linli Ding, Mary Pettengil, Matthew Hanlon, Ashvini Venkatesh, Aditi Ranganath, Prateel Agarwal, Gaurav Nanda, Andrew Magill, Keith Strmiska, Javier Estrada Santos, and Hasan Khan.
 
 ## Connections and Community Engagement
 
@@ -77,6 +77,6 @@ We sincerely thank all funding agencies, institutional partners, and community s
 
 Discover more about the portal's impact and capabilities through our publications, presentations, and educational materials:
 
-* [Visualization Tutorials on YouTube](link-to-youtube-channel) *(Placeholder for actual link)*
+* [Visualization Tutorials on YouTube](https://www.youtube.com/playlist?list=PL7QcRCNp33XA7BBvpNbwsDZjLB-mezkUu) 
 * [Webinars and Presentations Archive](link-to-presentations) *(Placeholder for actual link)*
-* List of publications citing or describing the portal. *(Link to list if available)*
+* List of publications citing or describing the portal. *(Link to list - To be added.)*
