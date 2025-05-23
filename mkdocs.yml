@@ -56,6 +56,8 @@ nav:
     - Past Tutorials: past_tutorials.md
   - Policies:
     - User Agreement: user_agreement.md
+  - Admin:
+    - Onboarding Admin: onboarding_admin.md
 
 plugins:
   - search
