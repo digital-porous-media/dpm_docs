@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://digitalporousmedia.org/onboarding_admin/</loc>
+         <lastmod>2025-05-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://digitalporousmedia.org/some-page%20copy/</loc>
          <lastmod>2025-05-23</lastmod>
          <changefreq>daily</changefreq>
