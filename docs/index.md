@@ -23,6 +23,25 @@ To get started with Digital Porous Media:
 3. Explore the available datasets and tools
 4. Start sharing your own digital porous media data
 
+### Set Up Multi-Factor Authentication (MFA)
+
+MFA adds an extra layer of security by requiring a second form of verification in addition to your password. This significantly reduces the risk of unauthorized access to your account and the portal.
+
+It's essential to set up your MFA before the implementation date to avoid any disruption to your access.
+
+1.  **Set Up Your MFA:**
+    * Go to: [https://accounts.tacc.utexas.edu/mfa](https://accounts.tacc.utexas.edu/mfa)
+    * Log in with your portal username and password.
+    * Follow the detailed instructions on [https://docs.tacc.utexas.edu/basics/mfa/](https://docs.tacc.utexas.edu/basics/mfa/) to pair your account with an MFA app or SMS.
+
+2.  **Inform Your Team:** If you manage a team or group, please ensure they are aware of this change and complete their MFA setup as soon as possible.
+
+
+**Need Help?**
+
+* Review the MFA setup guide: [https://docs.tacc.utexas.edu/basics/mfa/](https://docs.tacc.utexas.edu/basics/mfa/)
+* If you encounter any issues or have questions, please submit a support ticket: [https://tacc.utexas.edu/about/help/](https://tacc.utexas.edu/about/help/)
+
 ## Documentation Structure
 
 This documentation is organized into several sections:
