@@ -22,20 +22,18 @@ The Digital Porous Media Portal is specifically designed to host datasets pertin
 **We require that users contributing data ensure their submissions are scientifically relevant, clearly described, well-organized, and reusable.** High-quality metadata is essential for making datasets discoverable, understandable, and valuable to the broader community. Datasets submitted without sufficient descriptive metadata, proper attribution, or in formats currently unsupported by the portal may require revision before public release. For detailed guidelines, please consult our [How to Upload Data](upload_data.md) guide and the official [User Agreement](user_agreement.md), which outlines curation standards and the publication process.
 
 ## Our Team
+The portal is managed by Dr. Masa Prodanovic, Hildebrand Department of Petroleum and Geosystems Engineering, and uses computing resources from the University of Texas System Research Cyberinfrastructure and the Texas Advanced Computing Center at the University of Texas at Austin.
 
-The Digital Porous Media Portal initiative is led by **Dr. Maša Prodanović**, faculty in the Hildebrand Department of Petroleum and Geosystems Engineering at The University of Texas at Austin.
+**Current Team as of May 2025**
 
+### Data Curation, Software, Digital Marketing
+Dr. Maria Esteva, Cinar Turhan, Dr. Bernard Chang, Dr. Masa Prodanovic
+ 
+### Project Implementation
+John Gentle, Shayan Khan, Vera Belcher, Tracy Brown
 
-The portal leverages the significant capabilities of the **Texas Advanced Computing Center (TACC)** for high-performance storage, computing resources, and technical expertise, supported by the **University of Texas System Research Cyberinfrastructure (UTRC)** initiative. Administrative support is provided by the Center for Subsurface Energy and the Environment at UT Austin.
-
-Our dedicated team includes experts in data curation, software development, and outreach:
-
-* Dr. Masa Prodanovic
-* Dr. Maria Esteva
-* Dr. Bernard Chang
-* Cinar Turhan
-
-We gratefully acknowledge the foundational work and significant contributions of past team members, including: Christopher Landry, Linli Ding, Mary Pettengil, Matthew Hanlon, Ashvini Venkatesh, Aditi Ranganath, Prateel Agarwal, Gaurav Nanda, Andrew Magill, Keith Strmiska, Javier Estrada Santos, and Hasan Khan.
+### Past Team Members: 
+Hasan Khan, Javier Estrada Santos, Anuradha Radhakrishnan, Ankita Singh, Keith Strmiska, Andrew Magill, Christopher Landry, Linli Ding, Mary Pettengil, Matthew Hanlon, Ashvini Venkatesh, Aditi Ranganath, Prateel Agarwal, Gaurav Nanda.
 
 ## Connections and Community Engagement
 
