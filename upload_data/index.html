@@ -125,6 +125,14 @@
     <li class="toctree-l2"><a class="reference internal" href="../about_us/#scope-and-content-policy">Scope and Content Policy</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="../about_us/#our-team">Our Team</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="../about_us/#data-curation-software-digital-marketing">Data Curation, Software, Digital Marketing</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="../about_us/#project-implementation">Project Implementation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="../about_us/#past-team-members">Past Team Members:</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="../about_us/#connections-and-community-engagement">Connections and Community Engagement</a>
     </li>
@@ -216,6 +224,18 @@
     
 >Upload Data</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#data-model">Data Model</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#upload">Upload</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#step-1-create-a-dataset">Step 1: Create a Dataset</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-3-add-sample-information">Step 3: Add Sample Information</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-4-add-digital-dataset">Step 4: Add Digital Dataset</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1">
@@ -348,39 +368,72 @@
     <div id="tacc_readthedocs">
       <h1 id="how-to-upload-data-a-step-by-step-guide">How to Upload Data: A Step-by-Step Guide<a class="headerlink fa fa-link" href="#how-to-upload-data-a-step-by-step-guide" title="Link to Heading"></a></h1>
 <p>This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DPM). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.</p>
+<h2 id="data-model">Data Model<a class="headerlink fa fa-link" href="#data-model" title="Link to Heading"></a></h2>
+<p>Before you begin uploading, it's helpful to understand that the Digital Porous Media Portal (DPMP) uses a <strong>data model</strong> to organize and describe datasets. This data model defines how your files, projects, and metadata are structured within the portal. <strong>Mandatory</strong> metadata fields are marked with asterisks (*), indicating they are required for publication and discoverability. Some fields are highlighted in <strong>green</strong>—these represent updates or new fields added since the previous model. Metadata requirements may vary depending on the data type (e.g., image, raw binary, processed data). By following this model, DPMP ensures that all datasets are consistently described, making them easier to search, interpret, and reuse.</p>
+<p>Below is a visual overview of the data model and its metadata requirements:</p>
+<p><img alt="DPMP Data Model v2" src="../images/data_model_v2.png" /></p>
+<hr />
+<h2 id="upload">Upload<a class="headerlink fa fa-link" href="#upload" title="Link to Heading"></a></h2>
 <p><strong>Before You Begin:</strong></p>
 <ul>
 <li><strong>Account:</strong> Ensure you have registered for a TACC account at <a href="https://accounts.tacc.utexas.edu/register">https://accounts.tacc.utexas.edu/register</a> and are logged into the DPM.</li>
-<li><strong>Data Organization:</strong> Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) <em>before</em> uploading.</li>
-<li><strong>File Size:</strong><ul>
-<li>If your total dataset <strong>exceeds 2GB</strong>, please <strong>email the DPM staff first</strong> to discuss the upload.</li>
+<li>
+<p><strong>Data Organization:</strong> Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) <em>before</em> uploading. You can refer to the data model for such organization.</p>
+</li>
+<li>
+<p><strong>File Size:</strong></p>
+<ul>
+<li>If your total dataset <strong>exceeds 2GB</strong>, please <strong>email the DPMP staff first</strong> to discuss the upload.</li>
 <li>Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.</li>
 </ul>
 </li>
-<li><strong>Compression:</strong> <strong>Avoid compressing</strong> individual image files (e.g., into <code>.zip</code> or <code>.tar.gz</code> archives) before uploading if possible. Uploading raw or standard image formats directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.</li>
+<li><strong>Compression:</strong> <strong>Avoid compressing</strong> individual image files (e.g., into <code>.zip</code> or <code>.tar.gz</code> archives) before uploading if possible. Uploading standard image formats (e.g.,  <code>*.tiff</code>, <code>*.raw</code>) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.</li>
 </ul>
 <hr />
-<p><strong>Step 1: Create or Select a Project</strong>
-All data on DPM belongs to a "Project".</p>
+<h3 id="step-1-create-a-dataset">Step 1: Create a Dataset<a class="headerlink fa fa-link" href="#step-1-create-a-dataset" title="Link to Heading"></a></h3>
+<p>All data on DPMP belongs to a "Dataset" entity. So, this will be the starting point.</p>
 <ol>
-<li>Log in to the DPM and navigate to the <strong>"My Projects"</strong> interface.</li>
-<li>Choose one:<ul>
-<li><strong>Create a New Project:</strong> Click the option to create a new project. Provide a descriptive name.<ul>
-<li><em>Note on Ownership:</em> For citation purposes, it's best if the primary data author is the project owner. If someone else (e.g., a student or assistant) will be uploading the data, the data owner should ideally create the project and then add the uploader as a collaborator (see Step 2).</li>
-</ul>
+<li>
+<p>Log in to the DPMP and navigate to the <code>My Dashboard</code> interface.</p>
+<p><img alt="Upload Step 1" src="../images/upload_step1.png" /></p>
 </li>
-<li><strong>Use an Existing Project:</strong> If you are adding data to a project you previously created, simply navigate to and open that project.</li>
-</ul>
+<li>
+<p>Within the dashboard, select the <code>Data Files</code> from the left column (1 in the image below). Then, navigate to <code>Dataset</code> directory (2), and select <code>+ Add</code> (3).</p>
+<p><img alt="Upload Step 2" src="../images/upload_step2.png" /></p>
+</li>
+<li>
+<p>From the dropdown list, select <code>Dataset</code>.</p>
+</li>
+<li>
+<p>Fill in the "Dataset Title", "Description", and attach a cover image. Then, click <code>Add Dataset</code>.</p>
+<p><img alt="Upload Step 3" src="../images/upload_step3.png" />
+Now, the dataset is created and the portal navigated inside that directory! Congrats 🎉!</p>
 </li>
 </ol>
-<p><strong>Step 2: Add Collaborators (Optional)</strong></p>
-<p>If members of your team need to help manage the project or view the data while it's still private:</p>
+<p><strong>Step 2: Add Collaborators</strong></p>
 <ol>
-<li>Ensure your collaborators are registered users on the DPM.</li>
-<li>Within your project's management interface, find the option to add collaborators.</li>
-<li>Add them using their registered DPM/TACC username or email. Collaborators can then edit the project and upload data.</li>
+<li>To add the project members or collaboratiors, select <code>Manage Authors</code> from the options.</li>
 </ol>
-<p><strong>Step 3: Upload Your Data Files</strong></p>
+<p><img alt="Upload Step 4" src="../images/upload_step4.png" /></p>
+<ol>
+<li>From the pop-up menu, search and add the TACC account holder users using their registered DPMP/TACC username or email and select <code>+ Add</code>, or select <code>+ Add Guest Author</code> to add contributors without TACC accounts.</li>
+</ol>
+<p><img alt="Upload Step 5" src="../images/upload_step5.png" /></p>
+<ol>
+<li>TACC user collaborators can edit the project and upload data.</li>
+</ol>
+<h3 id="step-3-add-sample-information">Step 3: Add Sample Information<a class="headerlink fa fa-link" href="#step-3-add-sample-information" title="Link to Heading"></a></h3>
+<p>Select digital dataset</p>
+<p><img alt="Upload Step 6" src="../images/upload_step6.png" /></p>
+<p>Navigate to the sample directory.</p>
+<p><img alt="Upload Step 7" src="../images/upload_step7.png" /></p>
+<h3 id="step-4-add-digital-dataset">Step 4: Add Digital Dataset<a class="headerlink fa fa-link" href="#step-4-add-digital-dataset" title="Link to Heading"></a></h3>
+<p>Add information
+<img alt="Upload Step 8" src="../images/upload_step8.png" /></p>
+<p>Similar to what we did after sample information, navigate to the digital dataset foler.</p>
+<p>Click the purple <code>+ Add</code> button, and select <code>Upload</code>. This is how that step should look like after selecting files.
+<img alt="Upload Step 9" src="../images/upload_step9.png" /></p>
+<p><strong>Step 5: Add Analysis Dataset</strong></p>
 <ol>
 <li>Inside your selected project, find the data upload section or button.</li>
 <li>Choose your preferred upload method:<ul>
