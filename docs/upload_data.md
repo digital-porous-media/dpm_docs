@@ -2,35 +2,85 @@
 
 This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DPM). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.
 
-**Before You Begin:**
+## Data Model
+Before you begin uploading, it's helpful to understand that the Digital Porous Media Portal (DPMP) uses a **data model** to organize and describe datasets. This data model defines how your files, projects, and metadata are structured within the portal. **Mandatory** metadata fields are marked with asterisks (\*), indicating they are required for publication and discoverability. Some fields are highlighted in **green**—these represent updates or new fields added since the previous model. Metadata requirements may vary depending on the data type (e.g., image, raw binary, processed data). By following this model, DPMP ensures that all datasets are consistently described, making them easier to search, interpret, and reuse.
 
-* **Account:** Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.edu/register](https://accounts.tacc.utexas.edu/register) and are logged into the DPM.
-* **Data Organization:** Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading.
-* **File Size:**
-    * If your total dataset **exceeds 2GB**, please **email the DPM staff first** to discuss the upload.
-    * Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.
-* **Compression:** **Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading raw or standard image formats directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.
+Below is a visual overview of the data model and its metadata requirements:
+
+![DPMP Data Model v2](images/data_model_v2.png)
 
 ---
 
-**Step 1: Create or Select a Project**
-All data on DPM belongs to a "Project".
+## Upload 
 
-1.  Log in to the DPM and navigate to the **"My Projects"** interface.
-2.  Choose one:
-    * **Create a New Project:** Click the option to create a new project. Provide a descriptive name.
-        * *Note on Ownership:* For citation purposes, it's best if the primary data author is the project owner. If someone else (e.g., a student or assistant) will be uploading the data, the data owner should ideally create the project and then add the uploader as a collaborator (see Step 2).
-    * **Use an Existing Project:** If you are adding data to a project you previously created, simply navigate to and open that project.
+**Before You Begin:**
 
-**Step 2: Add Collaborators (Optional)**
+* **Account:** Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.edu/register](https://accounts.tacc.utexas.edu/register) and are logged into the DPM.
+* **Data Organization:** Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading. You can refer to the data model for such organization.
 
-If members of your team need to help manage the project or view the data while it's still private:
+* **File Size:**
+    * If your total dataset **exceeds 2GB**, please **email the DPMP staff first** to discuss the upload.
+    * Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.
+* **Compression:** **Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading standard image formats (e.g.,  `*.tiff`, `*.raw`) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.
 
-1.  Ensure your collaborators are registered users on the DPM.
-2.  Within your project's management interface, find the option to add collaborators.
-3.  Add them using their registered DPM/TACC username or email. Collaborators can then edit the project and upload data.
+---
 
-**Step 3: Upload Your Data Files**
+### Step 1: Create a Dataset
+All data on DPMP belongs to a "Dataset" entity. So, this will be the starting point.
+
+1.  Log in to the DPMP and navigate to the `My Dashboard` interface.
+
+    ![Upload Step 1](images/upload_step1.png)
+
+2. Within the dashboard, select the `Data Files` from the left column (1 in the image below). Then, navigate to `Dataset` directory (2), and select `+ Add` (3).
+
+    ![Upload Step 2](images/upload_step2.png)
+
+3. From the dropdown list, select `Dataset`.
+
+4. Fill in the "Dataset Title", "Description", and attach a cover image. Then, click `Add Dataset`.
+
+    ![Upload Step 3](images/upload_step3.png)
+Now, the dataset is created and the portal navigated inside that directory! Congrats 🎉!
+
+
+**Step 2: Add Collaborators**
+
+1.  To add the project members or collaboratiors, select `Manage Authors` from the options.
+
+![Upload Step 4](images/upload_step4.png)
+
+
+2. From the pop-up menu, search and add the TACC account holder users using their registered DPMP/TACC username or email and select `+ Add`, or select `+ Add Guest Author` to add contributors without TACC accounts.
+
+![Upload Step 5](images/upload_step5.png)
+
+3. TACC user collaborators can edit the project and upload data.
+
+### Step 3: Add Sample Information
+
+Select digital dataset
+
+![Upload Step 6](images/upload_step6.png)
+
+Navigate to the sample directory.
+
+![Upload Step 7](images/upload_step7.png)
+
+
+### Step 4: Add Digital Dataset
+
+Add information
+![Upload Step 8](images/upload_step8.png)
+
+Similar to what we did after sample information, navigate to the digital dataset foler.
+
+Click the purple `+ Add` button, and select `Upload`. This is how that step should look like after selecting files.
+![Upload Step 9](images/upload_step9.png)
+
+**Step 5: Add Analysis Dataset**
+
+
 
 1.  Inside your selected project, find the data upload section or button.
 2.  Choose your preferred upload method:
