@@ -44,54 +44,52 @@ All data on DPMP belongs to a "Dataset" entity. So, this will be the starting po
 Now, the dataset is created and the portal navigated inside that directory! Congrats 🎉!
 
 
-**Step 2: Add Collaborators**
+### Step 2: Add Collaborators
 
 1.  To add the project members or collaboratiors, select `Manage Authors` from the options.
 
-![Upload Step 4](images/upload_step4.png)
+    ![Upload Step 4](images/upload_step4.png)
 
 
 2. From the pop-up menu, search and add the TACC account holder users using their registered DPMP/TACC username or email and select `+ Add`, or select `+ Add Guest Author` to add contributors without TACC accounts.
 
-![Upload Step 5](images/upload_step5.png)
+    ![Upload Step 5](images/upload_step5.png)
 
 3. TACC user collaborators can edit the project and upload data.
 
 ### Step 3: Add Sample Information
 
-Select digital dataset
+1. Select the `Add Sample Data` option next the the Manage Authors. Fill in the pop-up form.
 
-![Upload Step 6](images/upload_step6.png)
+    ![Upload Step 6](images/upload_step6.png)
 
-Navigate to the sample directory.
+2. After creating the sample information, navigate to the sample directory by clicking at its name.
 
-![Upload Step 7](images/upload_step7.png)
+    ![Upload Step 7](images/upload_step7.png)
 
 
 ### Step 4: Add Digital Dataset
 
-Add information
-![Upload Step 8](images/upload_step8.png)
+1. Similar to the sample information, this time, select `Add Digital Dataset' option. Fill out the pop-up form.
 
-Similar to what we did after sample information, navigate to the digital dataset foler.
+    ![Upload Step 8](images/upload_step8.png)
 
-Click the purple `+ Add` button, and select `Upload`. This is how that step should look like after selecting files.
-![Upload Step 9](images/upload_step9.png)
+2. Then, similar to what we did after sample information, navigate to the digital dataset folder.
 
-**Step 5: Add Analysis Dataset**
+3. Click the purple `+ Add` button, and select `Upload`. This is how that step should look like after selecting files.
+    ![Upload Step 9](images/upload_step9.png)
 
+### Step 5: Add Analysis Dataset
 
+1. To add the Analysis Dataset, navigate back to the sample information directory. You can do this using the back button of your browser, or navigate through the `Go to ...` option on the left of the main dataset name.
 
-1.  Inside your selected project, find the data upload section or button.
-2.  Choose your preferred upload method:
-    * **Dropbox:** Link your Dropbox account to transfer files directly.
-    * **UTBox:** Link your UTBox account (if applicable) to transfer files directly.
-    * **Drag-and-Drop:** Drag files or folders directly from your computer onto the designated upload area in your web browser.
-3.  Select the prepared files/folders and start the upload process. Monitor the progress as indicated by the interface.
+2. Select `Add Analysis Dataset` this time, and fill out the corresponding information.
 
-**Step 4: Add Metadata (Crucial!)**
+3. Navigate to its directory after filling out the form, and Upload data similar to the digital dataset.
 
-Metadata (data about your data) is essential for making your dataset understandable and usable. You will be prompted to add metadata for your project and individual files.
+### Step 6: Request Publication
+...
+<!--
 
 1.  **Project Description:** Provide a clear description of the overall project, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.
 2.  **File-Level Metadata:** For each uploaded data file (especially images), provide necessary details.
@@ -127,3 +125,5 @@ Your uploaded data is now stored **privately** within your project.
 ---
 
 For further details on specific file formats or metadata fields, please refer to the relevant sections of the documentation. If you encounter issues, contact the DPM support team.
+
+-->
