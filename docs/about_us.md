@@ -40,7 +40,7 @@ Hasan Khan, Javier Estrada Santos, Anuradha Radhakrishnan, Ankita Singh, Keith S
 DPM is proud to be an active participant in the broader research data ecosystem:
 
 
-* An affiliated project within **EarthCube**, enhancing access to geoscience data.
+* An affiliated dataset within **EarthCube**, enhancing access to geoscience data.
 * A member of the **EarthCube Council of Data Facilities**.
 * Registered in the **Registry of Research Data Repositories (re3data.org)**.
 * Recognized as a recommended data repository by the **Geosciences Data Journal**.

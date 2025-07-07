@@ -7,7 +7,7 @@ Within each Jupyter Hub session, users may locally modify copies of the communit
 
 ## How Do Admins Move the Community Data?
 
-The Community Applications project is a special type of project designed for centralized data sharing. Only authorized administrators can add data to the Community Applications project. You can skip this part if you are a regular user.
+The Community Applications dataset is a special type of dataset designed for centralized data sharing. Only authorized administrators can add data to the Community Applications dataset. You can skip this part if you are a regular user.
 
 To upload community data, admins should follow these steps:
 
@@ -26,16 +26,16 @@ To upload community data, admins should follow these steps:
     /// admonition | Warning
             type: caution 
 
-        Data cannot be uploaded directly to the "Community Applications" project exposed under `Data Files > Community Applications`. Instead, admins must use the special project accessible only to admin users under `Data Files > Datasets > Community Applications`.
+        Data cannot be uploaded directly to the "Community Applications" dataset exposed under `Data Files > Community Applications`. Instead, admins must use the special dataset accessible only to admin users under `Data Files > Datasets > Community Applications`.
     ///
 
 3. **Data Visibility:**  
-   Once an approved admin uploads data into the special "Community Applications" project the data will become visible (read-only) to all users under the path `Data Files > Community Applications`.
+   Once an approved admin uploads data into the special "Community Applications" dataset the data will become visible (read-only) to all users under the path `Data Files > Community Applications`.
 
 4. **JupyterHub Integration:**  
    There is no conflict between having an active JupyterHub session and uploading data to Community Applications. Users in JupyterHub will see new data appear under the "Community" folder once it is properly uploaded by an admin. If the new data does not appear automatically, users can click the refresh icon (small circular arrow) in the Jupyter file browser to update the file listing.
 
 5. **Concurrent Uploads:**  
-   Multiple admins can upload data to the Community Applications project simultaneously without conflict.
+   Multiple admins can upload data to the Community Applications dataset simultaneously without conflict.
 
 If you encounter any issues or require additional permissions, please contact the DPM team.

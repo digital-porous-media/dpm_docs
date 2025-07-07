@@ -3,7 +3,7 @@
 This guide provides step-by-step instructions for uploading your porous media datasets to the Digital Porous Media Portal (DPM). Following these steps helps ensure your data is well-described, discoverable, and usable by the community.
 
 ## Data Model
-Before you begin uploading, it's helpful to understand that the Digital Porous Media Portal (DPMP) uses a **data model** to organize and describe datasets. This data model defines how your files, projects, and metadata are structured within the portal. **Mandatory** metadata fields are marked with asterisks (\*), indicating they are required for publication and discoverability. Some fields are highlighted in **green**—these represent updates or new fields added since the previous model. Metadata requirements may vary depending on the data type (e.g., image, raw binary, processed data). By following this model, DPMP ensures that all datasets are consistently described, making them easier to search, interpret, and reuse.
+Before you begin uploading, it's helpful to understand that the Digital Porous Media Portal (DPMP) uses a **data model** to organize and describe datasets. This data model defines how your files, datasets, and metadata are structured within the portal. **Mandatory** metadata fields are marked with asterisks (\*), indicating they are required for publication and discoverability. Some fields are highlighted in **green**—these represent updates or new fields added since the previous model. Metadata requirements may vary depending on the data type (e.g., image, raw binary, processed data). By following this model, DPMP ensures that all datasets are consistently described, making them easier to search, interpret, and reuse.
 
 Below is a visual overview of the data model and its metadata requirements:
 
@@ -46,7 +46,7 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 
 ### Step 2: Add Collaborators
 
-1.  To add the project members or collaboratiors, select `Manage Authors` from the options.
+1.  To add the dataset members or collaboratiors, select `Manage Authors` from the options.
 
     ![Upload Step 4](images/upload_step4.png)
 
@@ -55,7 +55,7 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 
     ![Upload Step 5](images/upload_step5.png)
 
-3. TACC user collaborators can edit the project and upload data.
+3. TACC user collaborators can edit the dataset and upload data.
 
 ### Step 3: Add Sample Information
 
@@ -91,7 +91,7 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 ...
 <!--
 
-1.  **Project Description:** Provide a clear description of the overall project, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.
+1.  **dataset Description:** Provide a clear description of the overall dataset, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.
 2.  **File-Level Metadata:** For each uploaded data file (especially images), provide necessary details.
 3.  **Minimum Requirements:** The DPM enforces minimum metadata standards. Pay attention to warnings indicating missing required information. The more detail you provide, the more valuable your dataset becomes.
 4.  **Critical Metadata for Raw Binary Images:** Raw binary files (`.raw`, `.bin`, etc.) do not contain size or format information internally. To allow DPM to display them correctly, you **must** provide:
@@ -105,9 +105,9 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 **Step 5: Verify Previews (Especially for Volumetric Images)**
 
 1.  After the upload and metadata entry, the portal will often attempt to generate a preview (e.g., a GIF movie slicing through a 3D volume).
-2.  Check the preview on the project page. Does it look as expected?
+2.  Check the preview on the dataset page. Does it look as expected?
 3.  **Troubleshooting Low-Range Binary Data:** If you uploaded segmented data (e.g., values 0, 1, 2) as a raw binary file, the preview might initially look black or very dark. This is because the visualizer scales to the full potential range (e.g., 0-255 for 8-bit). To fix this:
-    * Navigate to the specific image file within your project.
+    * Navigate to the specific image file within your dataset.
     * Click the **"Actions"** tab/button associated with that file.
     * Select **"Edit"**.
     * Find and check the option labeled **"Use binary correction"** (or similar wording).
@@ -116,10 +116,10 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 
 **Step 6: Review and Finalize**
 
-Your uploaded data is now stored **privately** within your project.
+Your uploaded data is now stored **privately** within your dataset.
 
 * Review all uploaded files and metadata for accuracy and completeness.
-* You can continue to add/edit data and metadata while the project remains private.
+* You can continue to add/edit data and metadata while the dataset remains private.
 * Once you are satisfied and ready to make the data public, you can proceed with the publication request process (covered in the "Publish Datasets" guide - `publish.md`). Metadata cannot be easily edited by you after publication.
 
 ---
