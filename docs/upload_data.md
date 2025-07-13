@@ -19,7 +19,7 @@ Below is a visual overview of the data model and its metadata requirements:
 * **Data Organization:** Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading. You can refer to the data model for such organization.
 
 * **File Size:**
-    * If your total dataset **exceeds 2GB**, please **email the DPMP staff first** to discuss the upload.
+    * If your total dataset **exceeds 2GB**, please **email the DPMP staff first** to discuss the upload. See the upload options at [Uploading Large Files](#uploading-large-files).
     * Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.
 * **Compression:** **Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading standard image formats (e.g.,  `*.tiff`, `*.raw`) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.
 
@@ -88,7 +88,18 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 3. Navigate to its directory after filling out the form, and Upload data similar to the digital dataset.
 
 ### Step 6: Request Publication
-...
+
+Once all data and corresponding metadata are complete, your dataset is ready for review by our curation team. To initiate the review process, click the `Request Publication` button (see figure). This will open a review page where you can verify the information you provided and view the data tree for your dataset. After reviewing your submission, if no mandatory information is missing, you will see the `Submit Publication Request` option. Clicking this will send your review request to our curation team.
+
+![Upload Step 10](images/upload_step10.png)
+
+You can expect to hear back from our curation team within one week. If clarification or additional information is needed for your dataset, you will be contacted via email.
+
+
+## Uploading Large Files
+
+We are currently in progress of adopting two different transfer options: Globus, and Cyberduck. Once those systems are tested and fully functional, the instructions here will be updated.
+
 <!--
 
 1.  **dataset Description:** Provide a clear description of the overall dataset, the physical sample(s), and the experiment(s) involved. Link to relevant publications if available.
