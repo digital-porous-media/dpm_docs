@@ -45,10 +45,10 @@ nav:
     - Jupyter Notebooks: jupyter_docs.md
     - Digital Porous Media Tools (DPM Tools): dpm_tools.md #consider pointing it to its own documentation page after giving a brief info
   - Data:
+    - Download Data: download_data.md
     - Upload Data: upload_data.md
     - Manage Data: manage_data.md
     - Curate Datasets: curate.md
-    - Publish Datasets: publish.md
   - Engage:
     - LinkedIn: linkedin.md
   - Learn:
