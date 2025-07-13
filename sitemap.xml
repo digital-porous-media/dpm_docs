@@ -2,62 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://digitalporousmedia.org/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/about_us/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/cite_dataset/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/cite_us/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/community_data/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/curate/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digitalporousmedia.org/download_data/</loc>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/index%20copy/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/manage_data/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/onboarding_admin/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/some-page%20copy/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/upload_data/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/user_agreement/</loc>
-         <lastmod>2025-07-07</lastmod>
+         <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
