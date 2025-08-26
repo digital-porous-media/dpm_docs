@@ -28,6 +28,10 @@ The portal is managed by Dr. Masa Prodanovic, Hildebrand Department of Petroleum
 
 ### Data Curation, Software, Digital Marketing
 Dr. Maria Esteva, Cinar Turhan, Dr. Bernard Chang, Dr. Masa Prodanovic
+
+!!! note "Note"
+    A way to contact us about technical questions, conceptual discussions, or problems is through LinkedIn: [Masa Prodanovic](https://www.linkedin.com/in/masa-prodanovic-9121543/).
+
  
 ### Project Implementation
 John Gentle, Shayan Khan, Vera Belcher, Tracy Brown
