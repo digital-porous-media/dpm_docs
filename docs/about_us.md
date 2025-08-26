@@ -80,6 +80,5 @@ We sincerely thank all funding agencies, institutional partners, and community s
 Discover more about the portal's impact and capabilities through our publications, presentations, and educational materials:
 
 * [Visualization Tutorials on YouTube](https://www.youtube.com/playlist?list=PL7QcRCNp33XA7BBvpNbwsDZjLB-mezkUu) 
-* [Webinars and Presentations Archive]() *(To be updated)
 * List of publications citing or describing the portal. *(Link to list - To be added.)*
 * [Visualization Challenge](https://digitalporousmedia.org/visualization-challenge/)
