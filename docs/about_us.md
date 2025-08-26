@@ -71,7 +71,7 @@ We sincerely thank all funding agencies, institutional partners, and community s
 
 ## Get Involved
 
-* **Provide Feedback:** Your input is valuable! Share your thoughts and suggestions via our [feedback mechanism](link-to-feedback) *(Placeholder for actual link)* (anonymous submission is available).
+* **Provide Feedback:** Your input is valuable! Share your thoughts and suggestions via our [feedback mechanism](https://forms.gle/jd1c6ZB6oV9NBJLDA) (anonymous submission is available).
 * **Contribute Data:** Enhance the portal's collection by sharing your relevant research datasets. See the [upload guide](upload_data.md).
 * **Use Portal Resources:** Explore published datasets and leverage our tools for your research and educational activities. Please remember to properly [cite the portal](cite_us.md) and the specific [datasets](cite_dataset.md) you utilize.
 
@@ -80,5 +80,6 @@ We sincerely thank all funding agencies, institutional partners, and community s
 Discover more about the portal's impact and capabilities through our publications, presentations, and educational materials:
 
 * [Visualization Tutorials on YouTube](https://www.youtube.com/playlist?list=PL7QcRCNp33XA7BBvpNbwsDZjLB-mezkUu) 
-* [Webinars and Presentations Archive](link-to-presentations) *(Placeholder for actual link)*
+* [Webinars and Presentations Archive]() *(To be updated)
 * List of publications citing or describing the portal. *(Link to list - To be added.)*
+* [Visualization Challenge](https://digitalporousmedia.org/visualization-challenge/)
