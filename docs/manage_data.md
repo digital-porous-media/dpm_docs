@@ -27,3 +27,6 @@ Editing an Analysis Dataset is similar to editing Digital Dataset and Sample Inf
 
 ## Managing a Published Dataset
 If you need to make changes to an already published project, please contact our [curation team](about_us.md#data-curation-software-digital-marketing).
+
+!!! note "Note"
+    If you need technical support at any point, please create a ticket through TACC and mention Digital Porous Media Portal. 
