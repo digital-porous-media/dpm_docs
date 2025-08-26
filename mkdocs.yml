@@ -36,7 +36,7 @@ markdown_extensions:
 nav:
   - Digital Porous Media Essentials:
     - Documentation Overview: index.md
-    - About Us: about_us.md
+    #- About Us: about_us.md
     - Cite Us: cite_us.md
     - Cite a Dataset: cite_dataset.md
     #- User Agreement: user_agreement.md
