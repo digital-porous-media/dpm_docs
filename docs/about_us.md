@@ -30,7 +30,7 @@ The portal is managed by Dr. Masa Prodanovic, Hildebrand Department of Petroleum
 Dr. Maria Esteva, Cinar Turhan, Dr. Bernard Chang, Dr. Masa Prodanovic
 
 !!! note "Note"
-    A way to contact us about technical questions, conceptual discussions, or problems is through LinkedIn: [Masa Prodanovic](https://www.linkedin.com/in/masa-prodanovic-9121543/).
+    A way to contact us about technical questions, conceptual discussions, or problems is through LinkedIn: [Digital Porous Media Portal](https://www.linkedin.com/company/digital-porous-media/).
 
  
 ### Project Implementation
