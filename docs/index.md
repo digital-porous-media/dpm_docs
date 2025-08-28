@@ -41,18 +41,3 @@ It's essential to set up your MFA before the implementation date to avoid any di
 
 * Review the MFA setup guide: [https://docs.tacc.utexas.edu/basics/mfa/](https://docs.tacc.utexas.edu/basics/mfa/)
 * If you encounter any issues or have questions, please submit a support ticket: [https://tacc.utexas.edu/about/help/](https://tacc.utexas.edu/about/help/)
-
-## Documentation Structure
-
-This documentation is organized into several sections:
-
-- **Digital Porous Media Essentials**: Core documentation and usage guides
-- **Advanced Topics**: Detailed information about specific features and capabilities
-- **API Reference**: Technical documentation for developers
-- **Tutorials**: Step-by-step guides for common tasks
-
-## Need Help?
-
-If you need assistance or have questions:
-
-- Check our [FAQ section](https://digitalporousmedia.org/faq)
