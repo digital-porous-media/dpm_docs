@@ -23,7 +23,7 @@ Once your Jupyter Hub session is active, you have three main options to get star
 
 * **Use Your Own Data**: Create a new notebook to work with your personal files. You can find your data located in the /work directory.
 
-* **Use Community Data**: Explore shared datasets provided by the community. This data is available in the /community directory.
+* **Use Community Data**: Explore shared datasets provided by the community. This data is available in the /community directory. See [Community Data](./community_data.md) for more information.
 
 * **Run Tutorials**: Follow the pre-made tutorial notebooks. You can run these tutorials using either the shared community data or your own data.
 
