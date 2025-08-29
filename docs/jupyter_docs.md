@@ -29,8 +29,13 @@ Once your Jupyter Hub session is active, you have three main options to get star
 
 ### Example of running tutorials
 1. Navigate to the workshop that the tutorial was held.
+
 2. Navigate to the tutorial folder.
+
 3. Select your tutorial.
-![Jupyter Step 3](images/jupyter_step3.png)
+
+    ![Jupyter Step 3](images/jupyter_step3.png) 
+
 4. Follow along!
-![Jupyter Step 4](images/jupyter_step4.png)
+
+    ![Jupyter Step 4](images/jupyter_step4.png)
