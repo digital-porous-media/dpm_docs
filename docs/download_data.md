@@ -49,3 +49,10 @@ Instead of downloading directly, you can copy selected files or folders from the
 Download → Use this option if you want the dataset on your local computer for immediate inspection, smaller-scale analysis, or offline storage.
 
 Copy to TACC Storage → Use this option if you plan to work with the dataset on TACC’s HPC systems. Copying directly to your TACC storage avoids large transfers to your personal machine and enables direct use in computational workflows.
+
+
+
+!!! note "Note"
+    In the latest version of the portal, the list of publications may appear differently. 
+    Each dataset will be displayed with a thumbnail preview, similar to how datasets were 
+    shown in the earlier "Digital Rocks Portal."
