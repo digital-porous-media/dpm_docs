@@ -37,8 +37,7 @@ nav:
   - Digital Porous Media Essentials:
     - Documentation Overview: index.md
     #- About Us: about_us.md
-    - Cite Us: cite_us.md
-    - Cite a Dataset: cite_dataset.md
+    - How to Cite: cite.md
     #- User Agreement: user_agreement.md
   - Applications:
     - Community Data: community_data.md
