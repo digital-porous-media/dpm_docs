@@ -43,7 +43,7 @@ nav:
   - Applications:
     - Community Data: community_data.md
     - Jupyter Notebooks: jupyter_docs.md
-    - Digital Porous Media Tools (DPM Tools): https://github.com/digital-porous-media/dpm_docs
+    - Digital Porous Media Tools (DPM Tools): https://github.com/digital-porous-media/dpm_tools
   - Data:
     - Download Data: download_data.md
     - Upload and Curate Data: upload_data.md
