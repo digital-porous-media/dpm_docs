@@ -11,22 +11,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://digitalporousmedia.org/cite_dataset/</loc>
-         <lastmod>2025-08-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://digitalporousmedia.org/cite_us/</loc>
+         <loc>https://digitalporousmedia.org/cite/</loc>
          <lastmod>2025-08-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digitalporousmedia.org/community_data/</loc>
-         <lastmod>2025-08-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://digitalporousmedia.org/curate/</loc>
          <lastmod>2025-08-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
