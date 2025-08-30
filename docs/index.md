@@ -1,7 +1,7 @@
 # Digital Porous Media Documentation
 
-!!! caution "Caution"
-    This documentation is a prototype and is currently being developed.
+!!! note "Caution"
+    This documentation is currently being developed.
 
 Welcome to the Digital Porous Media Portal  (DPMP) documentation. This documentation provides comprehensive information about the DPMP, its features, and how to use them effectively.
 
