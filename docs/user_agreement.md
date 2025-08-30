@@ -78,8 +78,7 @@ This Policy and Data Usage Agreement (the “Agreement”) is between The Univer
 11. **Agreement and Policy Subject to Change.** The imaging technology, database management, business model, and characteristics of the DPMP are continually improving, thus details of this agreement and policy are subject to revision every twelve months.
 
 12. **Citation and Acknowledgement.** Users must acknowledge the use of DPMP data when publicly presenting any findings that benefited from their use of public DPMP data. Such presentations include but are not limited to papers, books, book chapters, conference posters, and talks.  When publishing findings that benefit from public DPMP data, please include the following citation: 
+> Prodanovic, M., Esteva, M., Ketcham, R., Chang, B., Turhan, C., Gentle, J., Khan, S., & Belcher, V. (2025). Digital Porous Media Portal (DPMP) for Publication, Analysis, and Simulation of Porous Media Images. Digital Porous Media Portal. https://doi.org/10.17612/FGMN-D889 
 
-Masa Prodanovic, Maria Esteva, Matthew Hanlon, Gaurav Nanda, Prateek Agarwal (2015) Digital Rocks Portal: a repository for porous media images http://dx.doi.org/10.17612/P7CC7K 
-
-which specifically refers to the Portal, as well as using any dataset specific DOI.
+    which specifically refers to the Portal, as well as using any dataset specific DOI.
 
