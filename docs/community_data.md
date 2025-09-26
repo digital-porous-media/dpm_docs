@@ -1,6 +1,6 @@
 # Community Data
 
-Community data are curated and placed in the designated directory by administrators or curators. Users can access these datasets while working with the [applications](jupyter_apps.md).
+Community data are curated and placed in the designated directory by administrators or curators. Users can access these datasets while working with the [applications](jupyter_docs.md).
 
 Within each Jupyter Hub session, users may locally modify copies of the community data. However, these modifications are session-specific and do not affect the global datasets. Each time a user starts a new Jupyter Hub session, the original community data will be available in the corresponding directory. If users wish to retain any changes made to the community data, they should transfer the modified files to their personal or allocated storage.
 
