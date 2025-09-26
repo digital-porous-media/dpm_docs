@@ -27,6 +27,14 @@ Click on the dataset title (e.g., *Fracture in granite*) to open its dataset pag
     ![Download Step 2](images/download_step2.png) 
 
 
+!!! note "Note"
+    If the dataset is larger than 2 GB, you can use the following two alternatives: 
+
+    **1. Globus:** Find the instructions on how to transfer data in [TACC's documentation](https://docs.tacc.utexas.edu/basics/datatransfer/#globus). 
+    
+    **2. Web Corral Interface:** Simply navigate to the corresponding dataset number [in this tree](https://web.corral.tacc.utexas.edu/digitalporousmedia/), and download the dataset.
+
+
 ## Step 3: Copy the Dataset to Your TACC Storage
 
 Instead of downloading directly, you can copy selected files or folders from the dataset into your own TACC storage. Navigate to the dataset page.
