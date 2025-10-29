@@ -37,7 +37,8 @@ It's essential to set up your MFA before the implementation date to avoid any di
 2.  **Inform Your Team:** If you manage a team or group, please ensure they are aware of this change and complete their MFA setup as soon as possible.
 
 
-**Need Help?**
+## Need Help?
 
 * Review the MFA setup guide: [https://docs.tacc.utexas.edu/basics/mfa/](https://docs.tacc.utexas.edu/basics/mfa/)
-* If you encounter any issues or have questions, please submit a support ticket: [https://tacc.utexas.edu/about/help/](https://tacc.utexas.edu/about/help/)
+* For DPMP related issues or questions, please send an email to [support@dpmp.atlassian.net](mailto:support@dpmp.atlassian.net)
+* For TACC related issues or questions, please submit a support ticket: [https://tacc.utexas.edu/about/help/](https://tacc.utexas.edu/about/help/)
