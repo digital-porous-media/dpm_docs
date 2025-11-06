@@ -11,18 +11,22 @@ Below is a visual overview of the data model and its metadata requirements:
 
 ---
 
+
+## Before You Begin:
+
+### Account
+Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.edu/register](https://accounts.tacc.utexas.edu/register) and are logged into the DPM.
+### Data Organization
+ Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading. You can refer to the data model for such organization.
+
+### Data Transfer Options
+* If your total dataset **exceeds 2GB**, please **email the DPMP staff first** to discuss the upload. The current upload options are through Globus and Cyberduck.  
+* Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. For chunks or datasets smaller than 2GB, the worklfow described below can be used for uploading through the portal platform. Having chunked datasets also aids users with downloading and processing the data later, 
+
+### Compression:
+**Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading standard image formats (e.g.,  `*.tiff`, `*.raw`) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). 
+
 ## Upload 
-
-**Before You Begin:**
-
-* **Account:** Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.edu/register](https://accounts.tacc.utexas.edu/register) and are logged into the DPM.
-* **Data Organization:** Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading. You can refer to the data model for such organization.
-
-* **File Size:**
-    * If your total dataset **exceeds 2GB**, please **email the DPMP staff first** to discuss the upload. See the upload options at [Uploading Large Files](#uploading-large-files).
-    * Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. This aids users with downloading and processing the data later.
-* **Compression:** **Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading standard image formats (e.g.,  `*.tiff`, `*.raw`) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). Use the portal's bulk upload options (Dropbox, UTBox) for transferring many files or large files efficiently.
-
 ---
 
 ### Step 1: Create a Dataset
@@ -94,12 +98,6 @@ Once all data and corresponding metadata are complete, your dataset is ready for
 ![Upload Step 10](images/upload_step10.png)
 
 You can expect to hear back from our curation team within one week. If clarification or additional information is needed for your dataset, you will be contacted via email.
-
-
-## Uploading Large Files
-
-We are currently in progress of adopting two different transfer options: Globus, and Cyberduck. Once those systems are tested and fully functional, the instructions here will be updated.
-
 
 ## Curate Your Dataset
 
@@ -296,7 +294,7 @@ These fields are common to all digital datasets, regardless of the referenced sa
 *   **Reference Digital Dataset**: The DOI or URI of an existing public dataset used to generate this digital dataset.
     *   **Best practice:** Use this field if your digital dataset is derived from another one (e.g., this is a segmented version of a raw dataset you are also uploading). This maintains a clear data provenance chain.
 *   **Other Information**: Any other relevant information about the digital dataset.
-    *   **Best practice:** This is a key field for usability. If the data is segmented, define the labels here. You can also describe fluid phases, experimental conditions during imaging (e.g., "scanned under 10 MPa confining pressure"), or any other details a user would need to understand and reuse the data correctly.
+    *   **Best practice:** This is a key field for usability. If the data is segmented, define the labels here. You can also describe fluid phases, experimental conditions during imaging (e.g., "scanned under 10 MPa confining pressure"), and the reason this dataset was obtained (e.g., "fracturing experiment", "flow properties") or any other details a user would need to understand and reuse the data correctly.
 
 ### 4. Analysis Dataset
 
