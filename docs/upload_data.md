@@ -19,14 +19,16 @@ Ensure you have registered for a TACC account at [https://accounts.tacc.utexas.e
 ### Data Organization
  Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) *before* uploading. You can refer to the data model for such organization.
 
-### Data Transfer Options
-* If your total dataset **exceeds 2GB**, please **email the DPMP staff first** to discuss the upload. The current upload options are through Globus and Cyberduck.  
-* Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. For chunks or datasets smaller than 2GB, the worklfow described below can be used for uploading through the portal platform. Having chunked datasets also aids users with downloading and processing the data later, 
-
 ### Compression:
 **Avoid compressing** individual image files (e.g., into `.zip` or `.tar.gz` archives) before uploading if possible. Uploading standard image formats (e.g.,  `*.tiff`, `*.raw`) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). 
 
-## Upload 
+## Data Transfer Options
+* We allow data transfer through the portal interface for datasets **smaller than 500 MB**. If you have a dataset larger than 500 MB, consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 500 MB each) before uploading. Having chunked datasets also aids users with downloading and processing the data later. [Upload Through Portal Interface](#upload-through-portal-interface) can be used for uploading through the portal platform. 
+
+* If your total dataset **exceeds 500 MB**, please **email the DPMP staff first** to discuss the upload. The current upload options are through Globus and Cyberduck. See [Upload Through Globus](#upload-through-globus) for the guidelines.
+
+
+## Upload Through Portal Interface
 ---
 
 ### Step 1: Create a Dataset
@@ -98,6 +100,37 @@ Once all data and corresponding metadata are complete, your dataset is ready for
 ![Upload Step 10](images/upload_step10.png)
 
 You can expect to hear back from our curation team within one week. If clarification or additional information is needed for your dataset, you will be contacted via email.
+
+
+
+
+## Upload Through Globus
+1. Make sure you have created your dataset on the Portal beforehand, as this step generates the path to which the data will be uploaded (Dataset → Sample → Digital Dataset). You can follow the [Upload Through Portal Interface](#upload-through-portal-interface) until the data upload point.
+2. Create a Globus account and connect the server/device where your data is located. Instructions for connecting to Globus are available here: https://docs.tacc.utexas.edu/basics/datatransfer/#globus
+    * You need to install Globus Connect Personal on your local machine. Installation instructions are available here: https://docs.globus.org/globus-connect-personal/
+3. Once connected, navigate to: https://app.globus.org/
+    ![Globus Step 1](images/globus_step1.png)
+4. In the Globus File Manager interface, select your local storage (where your data is located) as the Collection in one panel. In the other panel, search for TACC Corral and select it. See the screenshots below.
+!!! note  ""
+    The name of the local storage is defined by the Globus Connect Personal endpoint. Also note that the “local storage” does not have to be your personal computer; you can transfer data between TACC systems as well (for example, from the Lonestar6 $WORK directory to the Portal).
+* This is what appears when you search for “corral” under Collection.
+    ![Globus Step 2](images/globus_step2.png)
+
+* And this is how it should look once both collections are selected. 
+    ![Globus Step 3](images/globus_step3.png)
+5. Go to the Dataset menu in the Digital Porous Media Portal and navigate to the folder you are working on. Click the “View Full Path” button next to the dataset name. This path is what you will enter in the Globus Path field.
+    * **Note**
+    The full path displayed includes corral-repl; you must change this to corral. See the example below.
+        * Output shown after clicking View Full Path on one of the datasets: 
+
+            */corral-repl/utexas/OTH21076/data_prod/projects/DRP-1109/Sandstone_Sample/Digital_Dataset_1*
+
+        * Path to enter in the Globus Path box:
+        
+            */corral/utexas/OTH21076/data_prod/projects/DRP-1109/Sandstone_Sample/Digital_Dataset_1*
+
+
+
 
 ## Curate Your Dataset
 

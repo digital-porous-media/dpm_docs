@@ -18,10 +18,16 @@ The DPMP is a platform for sharing, visualizing, and analyzing digital rock data
 
 To get started with Digital Porous Media:
 
-1. Visit [digitalporousmedia.org](https://digitalporousmedia.org)
-2. Create an account or sign in
-3. Explore the available datasets and tools
-4. Start sharing your own digital porous media data
+1. Visit [digitalporousmedia.org](https://digitalporousmedia.org).
+2. Create an account or sign in.
+    * DPMP accounts are TACC accounts (and follow TACC  rules) that are linked to computational resources reserved for DPMP.
+    * Note that TACC account creation is not immediate, and the approval can take up to **two business days**.
+3. Explore the available datasets and tools.
+4. Start sharing your own digital porous media data.
+
+!!! note  ""
+    DPMP accounts are TACC accounts (and follow TACC rules) that are linked to computational resources reserved for DPMP.
+
 
 ### Set Up Multi-Factor Authentication (MFA)
 
