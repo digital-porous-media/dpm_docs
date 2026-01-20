@@ -105,10 +105,10 @@ You can expect to hear back from our curation team within one week. If clarifica
 
 
 ## Upload Through Globus
-1. Make sure you have created your dataset on the Portal beforehand, as this step generates the path to which the data will be uploaded (Dataset → Sample → Digital Dataset). You can follow the [Upload Through Portal Interface](#upload-through-portal-interface) until the data upload point.
-2. Create a Globus account and connect the server/device where your data is located. Instructions for connecting to Globus are available here: https://docs.tacc.utexas.edu/basics/datatransfer/#globus
-    * You need to install Globus Connect Personal on your local machine. Installation instructions are available here: https://docs.globus.org/globus-connect-personal/
-3. Once connected, navigate to: https://app.globus.org/
+1. Make sure you have created your dataset on the Portal beforehand, as this step generates the path to which the data will be uploaded (Dataset → Sample → Digital Dataset). You can follow the [Upload Through Portal Interface](#upload-through-portal-interface) until after creating digital dataset or analysis dataset.
+2. Create a Globus account and connect the server/device where your data is located. Instructions for connecting to Globus are available here: [Connect your Globus to TACC](https://docs.tacc.utexas.edu/basics/datatransfer/#globus)
+    * You need to install Globus Connect Personal on your local machine. Installation instructions are available here: [Install Globus Connect Personal](https://docs.globus.org/globus-connect-personal/)
+3. Once connected, navigate to: [Globus Online App](https://app.globus.org/)
     ![Globus Step 1](images/globus_step1.png)
 4. In the Globus File Manager interface, select your local storage (where your data is located) as the Collection in one panel. In the other panel, search for TACC Corral and select it. See the screenshots below.
 !!! note  ""
