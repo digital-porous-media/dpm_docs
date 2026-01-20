@@ -222,13 +222,13 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#data-organization">Data Organization</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#data-transfer-options">Data Transfer Options</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="#compression">Compression:</a>
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#upload">Upload</a>
+    <li class="toctree-l2"><a class="reference internal" href="#data-transfer-options">Data Transfer Options</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#upload-through-portal-interface">Upload Through Portal Interface</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#step-1-create-a-dataset">Step 1: Create a Dataset</a>
     </li>
@@ -243,6 +243,8 @@
     <li class="toctree-l3"><a class="reference internal" href="#step-6-request-publication">Step 6: Request Publication</a>
     </li>
         </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#upload-through-globus">Upload Through Globus</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#curate-your-dataset">Curate Your Dataset</a>
         <ul>
@@ -414,14 +416,18 @@
 <p>Ensure you have registered for a TACC account at <a href="https://accounts.tacc.utexas.edu/register">https://accounts.tacc.utexas.edu/register</a> and are logged into the DPM.</p>
 <h3 id="data-organization">Data Organization<a class="headerlink fa fa-link" href="#data-organization" title="Link to Heading"></a></h3>
 <p>Plan the structure of your data. Consider distinguishing between originating raw data and derived analysis data. It's often helpful to organize your files and folders locally on your computer or cloud storage (like Dropbox/UT Box) <em>before</em> uploading. You can refer to the data model for such organization.</p>
-<h3 id="data-transfer-options">Data Transfer Options<a class="headerlink fa fa-link" href="#data-transfer-options" title="Link to Heading"></a></h3>
-<ul>
-<li>If your total dataset <strong>exceeds 2GB</strong>, please <strong>email the DPMP staff first</strong> to discuss the upload. The current upload options are through Globus and Cyberduck.  </li>
-<li>Consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 2GB each) before uploading. For chunks or datasets smaller than 2GB, the worklfow described below can be used for uploading through the portal platform. Having chunked datasets also aids users with downloading and processing the data later, </li>
-</ul>
 <h3 id="compression">Compression:<a class="headerlink fa fa-link" href="#compression" title="Link to Heading"></a></h3>
 <p><strong>Avoid compressing</strong> individual image files (e.g., into <code>.zip</code> or <code>.tar.gz</code> archives) before uploading if possible. Uploading standard image formats (e.g.,  <code>*.tiff</code>, <code>*.raw</code>) directly allows the portal to automatically generate previews (like GIF movies) and perform basic analysis (like histograms). </p>
-<h2 id="upload">Upload<a class="headerlink fa fa-link" href="#upload" title="Link to Heading"></a></h2>
+<h2 id="data-transfer-options">Data Transfer Options<a class="headerlink fa fa-link" href="#data-transfer-options" title="Link to Heading"></a></h2>
+<ul>
+<li>
+<p>We allow data transfer through the portal interface for datasets <strong>smaller than 500 MB</strong>. If you have a dataset larger than 500 MB, consider splitting very large volumetric files into smaller, manageable chunks (e.g., under 500 MB each) before uploading. Having chunked datasets also aids users with downloading and processing the data later. <a href="#upload-through-portal-interface">Upload Through Portal Interface</a> can be used for uploading through the portal platform. </p>
+</li>
+<li>
+<p>If your total dataset <strong>exceeds 500 MB</strong>, please <strong>email the DPMP staff first</strong> to discuss the upload. The current upload options are through Globus and Cyberduck. See <a href="#upload-through-globus">Upload Through Globus</a> for the guidelines.</p>
+</li>
+</ul>
+<h2 id="upload-through-portal-interface">Upload Through Portal Interface<a class="headerlink fa fa-link" href="#upload-through-portal-interface" title="Link to Heading"></a></h2>
 <hr />
 <h3 id="step-1-create-a-dataset">Step 1: Create a Dataset<a class="headerlink fa fa-link" href="#step-1-create-a-dataset" title="Link to Heading"></a></h3>
 <p>All data on DPMP belongs to a "Dataset" entity. So, this will be the starting point.</p>
@@ -498,6 +504,47 @@ Now, the dataset is created and the portal navigated inside that directory! Cong
 <p>Once all data and corresponding metadata are complete, your dataset is ready for review by our curation team. To initiate the review process, click the <code>Request Publication</code> button (see figure). This will open a review page where you can verify the information you provided and view the data tree for your dataset. After reviewing your submission, if no mandatory information is missing, you will see the <code>Submit Publication Request</code> option. Clicking this will send your review request to our curation team.</p>
 <p><img alt="Upload Step 10" src="../images/upload_step10.png" /></p>
 <p>You can expect to hear back from our curation team within one week. If clarification or additional information is needed for your dataset, you will be contacted via email.</p>
+<h2 id="upload-through-globus">Upload Through Globus<a class="headerlink fa fa-link" href="#upload-through-globus" title="Link to Heading"></a></h2>
+<ol>
+<li>Make sure you have created your dataset on the Portal beforehand, as this step generates the path to which the data will be uploaded (Dataset → Sample → Digital Dataset). You can follow the <a href="#upload-through-portal-interface">Upload Through Portal Interface</a> until the data upload point.</li>
+<li>Create a Globus account and connect the server/device where your data is located. Instructions for connecting to Globus are available here: https://docs.tacc.utexas.edu/basics/datatransfer/#globus<ul>
+<li>You need to install Globus Connect Personal on your local machine. Installation instructions are available here: https://docs.globus.org/globus-connect-personal/</li>
+</ul>
+</li>
+<li>Once connected, navigate to: https://app.globus.org/
+    <img alt="Globus Step 1" src="../images/globus_step1.png" /></li>
+<li>In the Globus File Manager interface, select your local storage (where your data is located) as the Collection in one panel. In the other panel, search for TACC Corral and select it. See the screenshots below.</li>
+</ol>
+<div class="admonition note">
+<p>The name of the local storage is defined by the Globus Connect Personal endpoint. Also note that the “local storage” does not have to be your personal computer; you can transfer data between TACC systems as well (for example, from the Lonestar6 $WORK directory to the Portal).</p>
+</div>
+<ul>
+<li>
+<p>This is what appears when you search for “corral” under Collection.
+    <img alt="Globus Step 2" src="../images/globus_step2.png" /></p>
+</li>
+<li>
+<p>And this is how it should look once both collections are selected. 
+    <img alt="Globus Step 3" src="../images/globus_step3.png" /></p>
+</li>
+<li>Go to the Dataset menu in the Digital Porous Media Portal and navigate to the folder you are working on. Click the “View Full Path” button next to the dataset name. This path is what you will enter in the Globus Path field.<ul>
+<li>
+<p><strong>Note</strong>
+The full path displayed includes corral-repl; you must change this to corral. See the example below.</p>
+<ul>
+<li>
+<p>Output shown after clicking View Full Path on one of the datasets: </p>
+<p><em>/corral-repl/utexas/OTH21076/data_prod/projects/DRP-1109/Sandstone_Sample/Digital_Dataset_1</em></p>
+</li>
+<li>
+<p>Path to enter in the Globus Path box:</p>
+<p><em>/corral/utexas/OTH21076/data_prod/projects/DRP-1109/Sandstone_Sample/Digital_Dataset_1</em></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="curate-your-dataset">Curate Your Dataset<a class="headerlink fa fa-link" href="#curate-your-dataset" title="Link to Heading"></a></h2>
 <p>This section explains the best practices for filling out the metadata for your dataset. The goal is to make your data Findable, Accessible, Interoperable, and Reusable (FAIR). As computational science relies on shared data and code, creating a well-described, reproducible dataset is a critical contribution to the scientific community. Following these guidelines will ensure your dataset is a standalone research output that increases the visibility and impact of your work.</p>
 <p>Required fields are marked with an asterisk (*).</p>
