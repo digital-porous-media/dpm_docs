@@ -36,11 +36,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://digitalporousmedia.org/jupyter_docs/</loc>
-         <lastmod>2026-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://digitalporousmedia.org/manage_data/</loc>
          <lastmod>2026-08-03</lastmod>
          <changefreq>daily</changefreq>
@@ -62,6 +57,16 @@
     </url>
     <url>
          <loc>https://digitalporousmedia.org/some-page%20copy/</loc>
+         <lastmod>2026-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digitalporousmedia.org/tools_jupyter_docs/</loc>
+         <lastmod>2026-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digitalporousmedia.org/tools_lbpm_docs/</loc>
          <lastmod>2026-08-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
