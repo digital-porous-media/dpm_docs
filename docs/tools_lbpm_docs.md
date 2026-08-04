@@ -1,6 +1,6 @@
-# LBPM MRT GPU Simulation
+# LBPM MRT CPU Simulation
 
-This guide provides step-by-step instructions for running Lattice Boltzmann for Porous Media (LBPM) single-phase (MRT) permeability simulations on x86 GPUs using the Digital Porous Media Portal (DPMP).
+This guide provides step-by-step instructions for running Lattice Boltzmann for Porous Media (LBPM) single-phase (MRT) permeability simulations on x86 CPUs using the Digital Porous Media Portal (DPMP).
 
 ## Launch the Application
 
@@ -8,7 +8,7 @@ This guide provides step-by-step instructions for running Lattice Boltzmann for 
 
     ![LBPM Step 1](images/lbpm_step1.png)
 
-2. Navigate to the `Applications` tab in the left-hand menu (1). Then, navigate to the `Simulation` category (2). Click on `LBPM MRT GPU (Lonestar6)` from the list of available simulation applications (3).
+2. Navigate to the `Applications` tab in the left-hand menu (1). Then, navigate to the `Simulation` category (2). Click on `LBPM MRT CPU (Lonestar6)` from the list of available simulation applications (3).
 
     ![LBPM Step 2](images/lbpm_step2.png)
 
