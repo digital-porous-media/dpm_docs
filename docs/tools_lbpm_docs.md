@@ -53,7 +53,7 @@ This guide provides step-by-step instructions for running Lattice Boltzmann for 
 
 ## Outputs
 
-1. Enter a `Job Name`, and specify the `Archive System` and `Archive Directory` where output files will be stored after the job completes. Click Submit. The default `Archive System`, cloud.data, points to the `$WORK` file system on Lonestar6. The default `Archive Directory` creates a folder named `tapis-jobs-archive` under the user's `$WORK` directory, where output files can be found after the job completes. To archive outputs to a different location within `$WORK`, provide the absolute path to the desired directory, for example `/work/usergroup/username/ls6/my_output_folder`, in place of the default. To archive outputs to `$SCRATCH` instead, set the `Archive System` to `ls6` and provide the absolute path to the desired directory on the `$SCRATCH` file system.
+1. Enter a `Job Name`, and specify the `Archive System` and `Archive Directory` where output files will be stored after the job completes. Click Submit. The default `Archive System`, cloud.data, points to the `$WORK` file system on Lonestar6. The default `Archive Directory` creates a folder named `tapis-jobs-archive` under the user's `$WORK` directory, where output files can be found after the job completes. To archive outputs to a different location within `$WORK`, provide the absolute path to the desired directory, for example `/work/<useridentifier>/<username>/ls6/my_output_folder`, in place of the default. To archive outputs to `$SCRATCH` instead, set the `Archive System` to `ls6` and provide the absolute path to the desired directory on the `$SCRATCH` file system.
 
     ![LBPM Step 9](images/lbpm_step9.png)
 
