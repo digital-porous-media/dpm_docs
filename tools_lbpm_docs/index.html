@@ -492,7 +492,7 @@
 <h2 id="outputs">Outputs<a class="headerlink fa fa-link" href="#outputs" title="Link to Heading"></a></h2>
 <ol>
 <li>
-<p>Enter a <code>Job Name</code>, and specify the <code>Archive System</code> and <code>Archive Directory</code> where output files will be stored after the job completes. Click <code>Submit</code>.</p>
+<p>Enter a <code>Job Name</code>, and specify the <code>Archive System</code> and <code>Archive Directory</code> where output files will be stored after the job completes. Click Submit. The default <code>Archive System</code>, cloud.data, points to the <code>$WORK</code> file system on Lonestar6. The default <code>Archive Directory</code> creates a folder named <code>tapis-jobs-archive</code> under the user's <code>$WORK</code> directory, where output files can be found after the job completes. To archive outputs to a different location within <code>$WORK</code>, provide the absolute path to the desired directory, for example <code>/work/usergroup/username/ls6/my_output_folder</code>, in place of the default. To archive outputs to <code>$SCRATCH</code> instead, set the <code>Archive System</code> to <code>ls6</code> and provide the absolute path to the desired directory on the <code>$SCRATCH</code> file system.</p>
 <p><img alt="LBPM Step 9" src="../images/lbpm_step9.png" /></p>
 </li>
 <li>
