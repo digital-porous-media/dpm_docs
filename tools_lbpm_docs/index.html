@@ -184,8 +184,22 @@
     <li class="toctree-l2"><a class="reference internal" href="#launch-the-application">Launch the Application</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#inputs">Inputs</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#single-phase-mrt-permeability-simulations-on-x86-cpus">Single-phase (MRT) permeability simulations on x86 CPUs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#morphological-drainage-simulations">Morphological drainage simulations</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#multiphase-color-simulations">Multiphase (Color) simulations</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cpu">CPU</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gpu">GPU</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#configuration">Configuration</a>
     </li>
@@ -428,8 +442,14 @@
               
     
     <div id="tacc_readthedocs">
-      <h1 id="lbpm-mrt-cpu-simulation">LBPM MRT CPU Simulation<a class="headerlink fa fa-link" href="#lbpm-mrt-cpu-simulation" title="Link to Heading"></a></h1>
-<p>This guide provides step-by-step instructions for running Lattice Boltzmann for Porous Media (LBPM) single-phase (MRT) permeability simulations on x86 CPUs using the Digital Porous Media Portal (DPMP).</p>
+      <h1 id="lbpm-simulation">LBPM Simulation<a class="headerlink fa fa-link" href="#lbpm-simulation" title="Link to Heading"></a></h1>
+<p>This guide provides step-by-step instructions for running Lattice Boltzmann for Porous Media (LBPM) on the Digital Porous Media Portal (DPMP) for:</p>
+<ol>
+<li>Single-phase (MRT) permeability simulations on x86 CPUs</li>
+<li>Single-phase (MRT) permeability simulations on GPUs</li>
+<li>Morphological drainage simulations on GPUs</li>
+<li>Multiphase (Color) simulations on GPUs</li>
+</ol>
 <h2 id="launch-the-application">Launch the Application<a class="headerlink fa fa-link" href="#launch-the-application" title="Link to Heading"></a></h2>
 <ol>
 <li>
@@ -437,14 +457,14 @@
 <p><img alt="LBPM Step 1" src="../images/lbpm_step1.png" /></p>
 </li>
 <li>
-<p>Navigate to the <code>Applications</code> tab in the left-hand menu (1). Then, navigate to the <code>Simulation</code> category (2). Click on <code>LBPM MRT CPU (Lonestar6)</code> from the list of available simulation applications (3).</p>
+<p>Navigate to the <code>Applications</code> tab in the left-hand menu (1). Then, navigate to the <code>Simulation</code> category (2). Click on the simulation tool you want (e.g., <code>LBPM MRT CPU (Lonestar6)</code>) from the list of available simulation applications (3).</p>
 <p><img alt="LBPM Step 2" src="../images/lbpm_step2.png" /></p>
 </li>
 </ol>
 <h2 id="inputs">Inputs<a class="headerlink fa fa-link" href="#inputs" title="Link to Heading"></a></h2>
 <ol>
 <li>
-<p>Under <code>Inputs</code>, click <code>Select</code> next to <code>Input File</code> to browse for the input database (<code>.db</code>) file for the LBPM simulation.</p>
+<p>Under <code>Inputs</code>, click <code>Select</code> next to <code>Input File</code> to browse for the input database (<code>.db</code>) file for the LBPM simulation. Here, a pore of Berea sandstone (a.k.a. the Chicken pore) is used as an example.</p>
 <p><img alt="LBPM Step 3" src="../images/lbpm_step3.png" /></p>
 </li>
 <li>
@@ -452,50 +472,173 @@
 <p><img alt="LBPM Step 4" src="../images/lbpm_step4.png" /></p>
 </li>
 <li>
+<p>Use the appropriate input file for each type of simulation.</p>
+<h3 id="single-phase-mrt-permeability-simulations-on-x86-cpus">Single-phase (MRT) permeability simulations on x86 CPUs<a class="headerlink fa fa-link" href="#single-phase-mrt-permeability-simulations-on-x86-cpus" title="Link to Heading"></a></h3>
 <p>Below is an example <code>input.db</code> file for a single-phase (MRT) LBPM simulation. In this example, <code>nproc</code> is set to <code>1, 1, 1</code>, for a total of 1 processor.</p>
-<p><img alt="LBPM Step 5" src="../images/lbpm_step5.png" /></p>
+<pre class="highlight"><code class="language-ini">Domain {
+Filename = "berea_pore_110.raw"
+ReadType = "8bit"
+nproc = 1, 1, 1
+n = 110, 110, 110
+N = 110, 110, 110
+voxel_length = 1
+ReadValues = 1, 0
+WriteValues = 0, 2
+BC = 0
+}
+
+MRT {
+tau = 0.7
+F = 0.0, 0.0, 1.0e-5
+timestepMax = 1000000
+tolerance = 0.0001
+}</code></pre>
+<h3 id="morphological-drainage-simulations">Morphological drainage simulations<a class="headerlink fa fa-link" href="#morphological-drainage-simulations" title="Link to Heading"></a></h3>
+<p>Below is an example <code>input.db</code> file for a morphological drainage LBPM simulation. In this example, <code>nproc</code> is set to <code>1, 1, 1</code>, for a total of 1 processor.</p>
+<pre class="highlight"><code class="language-ini">Domain {
+Filename = "berea_pore_110.raw"
+ReadType = "8bit"
+nproc = 1, 1, 1
+n = 110, 110, 110
+N = 110, 110, 110
+voxel_length = 1
+ReadValues = 1, 0
+WriteValues = 0, 2
+BC = 0
+Sw = 0.10
+}</code></pre>
+<h3 id="multiphase-color-simulations">Multiphase (Color) simulations<a class="headerlink fa fa-link" href="#multiphase-color-simulations" title="Link to Heading"></a></h3>
+<p>Below is an example <code>input.db</code> file for a color LBPM simulation. In this example, <code>nproc</code> is set to <code>1, 1, 3</code>, for a total of 3 processors.</p>
+<pre class="highlight"><code class="language-ini">Domain {
+Filename = "berea_pore_110.raw"
+ReadType = "8bit"
+nproc = 1, 1, 1
+n = 110, 110, 110
+N = 110, 110, 110
+voxel_length = 1
+ReadValues = 1, 0
+WriteValues = 0, 2
+BC = 0
+Sw = 0.10
+}
+
+MRT {
+tau = 0.7
+F = 0.0, 0.0, 1.0e-5
+timestepMax = 1000000
+tolerance = 0.0001
+}
+
+Color {
+    protocol = "fractional flow"
+    capillary_number = 1e-3
+    tauA = 0.7             // relaxation time for fluid A (labeled as "1")
+    tauB = 0.7             // relaxation time for fluid B (labeled as "2")
+    rhoA   = 1.0           // density for fluid A (in lattice units)
+    rhoB   = 1.0           // density for fluid B (in lattice units)
+    alpha = 5e-3           // controls the surface tension
+    beta  = 0.95           // controls the interface width
+    F = 0, 0, 1e-4          // controls the external force
+    Restart = false         // initialize simulation from restart file?
+    timestepMax = 10000000  // maximum number of timesteps to perform before exit
+    ComponentLabels = 0     // number of immobile component labels in the input image
+    ComponentAffinity = 1.0 // wetting condition for each immobile component
+    WettingConvention = "SCAL"
+}
+
+Analysis {
+    analysis_interval = 10000        // Frequency to perform analysis
+    visualization_interval = 10000   // Frequency to write visualization data
+    restart_interval = 1000000       // Frequency to write restart data
+    restart_file = "Restart"         // Filename to use for restart file (will append rank)
+    N_threads    = 3                 // Number of threads to use for analysis
+    load_balance = "default"         // Load balance method to use: "none", "default", "independent"
+}
+
+Visualization {
+    format = "hdf5"
+    write_silo = true        // write SILO databases with assigned variables
+    save_8bit_raw = true     // write labeled 8-bit binary files with phase assignments
+    save_phase_field = true  // save phase field within SILO database
+    save_pressure = true     // save pressure field within SILO database
+    save_velocity = true     // save velocity field within SILO database
+}
+
+FlowAdaptor {
+    fractional_flow_increment = 0.05
+    endpoint_threshold = 0.1
+    skip_timesteps = 10000
+    min_steady_timesteps = 50000
+
+    max_steady_timesteps = 500000
+}</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A detailed description and example input files of simulations can be found in the <a href="https://lbpm-sim.org/">LBPM Documentation</a>.</p>
+</div>
 </li>
 </ol>
 <h2 id="parameters">Parameters<a class="headerlink fa fa-link" href="#parameters" title="Link to Heading"></a></h2>
-<ol>
-<li>
+<h3 id="cpu">CPU<a class="headerlink fa fa-link" href="#cpu" title="Link to Heading"></a></h3>
 <p>Enter the <code>Number of Processors</code> for the LBPM simulation. This value must match <code>nproc</code> in the selected <code>input.db</code> file.</p>
 <ul>
-<li>In this example, <code>nproc = 1, 1, 1</code>, so the number of processors is <code>1</code>.</li>
-</ul>
+<li>
+<p>In this example, <code>nproc = 1, 1, 1</code>, so the number of processors is <code>1</code>.</p>
 <p><img alt="LBPM Step 6" src="../images/lbpm_step6.png" /></p>
 </li>
-</ol>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The number of processors cannot exceed 128.</p>
 </div>
+<h3 id="gpu">GPU<a class="headerlink fa fa-link" href="#gpu" title="Link to Heading"></a></h3>
+<p>Enter the <code>Number of GPUs</code> for the LBPM simulation. This value must match <code>nproc</code> in the selected <code>input.db</code> file.</p>
+<ul>
+<li>
+<p>In this example, <code>nproc = 1, 1, 3</code>, so the number of processors is <code>3</code>.</p>
+<p><img alt="LBPM Step 6" src="../images/lbpm_step6-2.png" /></p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The number of GPUs cannot exceed 3.</p>
+</div>
 <h2 id="configuration">Configuration<a class="headerlink fa fa-link" href="#configuration" title="Link to Heading"></a></h2>
 <ol>
 <li>
-<p>Select the <code>Allocation</code> you would like to use for this job submission, then select the <code>Queue</code> this job will execute on.</p>
+<p>Select the <code>Allocation</code> to be used for this job submission, then select the <code>Queue</code> on which this job will execute.</p>
+<ul>
+<li>For CPU, available queues include <code>normal</code>, <code>vm-small</code>, etc.</li>
+<li>For GPU, available queues include <code>gpu-a100-small</code>, <code>gpu-a100</code>, <code>gpu-h100</code>, etc.</li>
+<li>A detailed description of available queues on Lonestar6 can be found in the <a href="https://docs.tacc.utexas.edu/hpc/lonestar6/#production-queues">TACC Lonestar6 documentation</a>.</li>
+</ul>
 <p><img alt="LBPM Step 7" src="../images/lbpm_step7.png" /></p>
 <ul>
 <li>
-<p>The current status of queues on Lonestar6 (idle nodes, running jobs, and waiting jobs) can be found at <code>System Status &gt; Lonestar6</code>.</p>
+<p>The current status of queues on Lonestar6 (idle nodes, running jobs, and waiting jobs) can be found under <code>System Status &gt; Lonestar6</code>.</p>
 <p><img alt="LBPM Step 8" src="../images/lbpm_step8.png" /></p>
-</li>
-<li>
-<p>A detailed description of available queues on Lonestar6 can be found in the <a href="https://docs.tacc.utexas.edu/hpc/lonestar6/#production-queues">TACC Lonestar6 documentation</a>.</p>
 </li>
 </ul>
 </li>
 <li>
-<p>Set the <code>Maximum Job Runtime</code>, <code>Cores Per Node</code>, and <code>Node Count</code> for the job.</p>
+<p>Set the <code>Maximum Job Runtime</code>, <code>Cores Per Node</code>, and <code>Node Count</code> for the job. In most cases, a <code>Node Count</code> of 1 is recommended.</p>
 </li>
 </ol>
 <h2 id="outputs">Outputs<a class="headerlink fa fa-link" href="#outputs" title="Link to Heading"></a></h2>
 <ol>
 <li>
 <p>Enter a <code>Job Name</code>, and specify the <code>Archive System</code> and <code>Archive Directory</code> where output files will be stored after the job completes. Click <code>Submit</code>.</p>
+<ul>
+<li>
 <p>The default <code>Archive System</code>, <code>cloud.data</code>, points to the <code>$WORK</code> file system on Lonestar6. The default <code>Archive Directory</code> creates a folder named <code>tapis-jobs-archive</code> under the user's <code>$WORK</code> directory, where output files can be found after the job completes.</p>
+</li>
+<li>
 <p>To archive outputs to a different location within <code>$WORK</code>, provide the absolute path to the desired directory, for example <code>/work/&lt;useridentifier&gt;/&lt;username&gt;/ls6/my_output_folder</code>, in place of the default.</p>
+</li>
+<li>
 <p>To archive outputs to <code>$SCRATCH</code> instead, set the <code>Archive System</code> to <code>ls6</code> and provide the absolute path to the desired directory on the <code>$SCRATCH</code> file system.</p>
+</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -525,18 +668,18 @@
 <p><img alt="LBPM Step 9" src="../images/lbpm_step9.png" /></p>
 </li>
 <li>
-<p>Once submitted, you will see a confirmation message.</p>
+<p>Once submitted, a confirmation message will be displayed.</p>
 <p><img alt="LBPM Step 10" src="../images/lbpm_step10.png" /></p>
 </li>
 </ol>
 <h2 id="monitor-and-retrieve-results">Monitor and Retrieve Results<a class="headerlink fa fa-link" href="#monitor-and-retrieve-results" title="Link to Heading"></a></h2>
 <ol>
 <li>
-<p>Navigate to <code>History &gt; Jobs</code>, find your job by <code>Job Name</code>, and click <code>View Details</code>.</p>
+<p>Navigate to <code>History &gt; Jobs</code>, locate the job by <code>Job Name</code>, and click <code>View Details</code>.</p>
 <p><img alt="LBPM Step 11" src="../images/lbpm_step11.png" /></p>
 </li>
 <li>
-<p>In the job details panel, click <code>View in Data Files</code> under <code>Output</code> to access your output files.</p>
+<p>In the job details panel, click <code>View in Data Files</code> under <code>Output</code> to access the output files.</p>
 <p><img alt="LBPM Step 12" src="../images/lbpm_step12.png" /></p>
 </li>
 </ol>
